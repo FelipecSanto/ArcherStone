@@ -1,0 +1,41 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Fase1_1.tmj",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "exportAsImage.drawTileGrid": false,
+    "file.lastUsedOpenFilter": "Todos os Ficheiros (*)",
+    "fileStates": {
+        ":/automap-tiles.tsx": {
+            "scaleInDock": 1
+        },
+        "Fase1_1.tmj": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 845,
+                "y": 541
+            }
+        },
+        "blocks.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "map.height": 34,
+    "map.lastUsedFormat": "json",
+    "map.width": 60,
+    "openFiles": [
+        "blocks.tsx",
+        "Fase1_1.tmj"
+    ],
+    "project": "MapaJogo.tiled-project",
+    "recentFiles": [
+        "blocks.tsx",
+        "Fase1_1.tmj"
+    ]
+}

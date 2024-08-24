@@ -1,0 +1,54 @@
+_deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.obj: \
+ C:\Users\felpi\Documents\PETECO\ProjectSimas\build\_deps\sfml-src\src\SFML\Window\Vulkan.cpp \
+ C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Window/Vulkan.hpp \
+ C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Config.hpp \
+ C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\vector \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\cpu_defines.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\functexcept.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\exception_defines.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\cpp_type_traits.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\type_traits.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\numeric_traits.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_pair.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\move.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\concept_check.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\type_traits \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator_base_types.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator_base_funcs.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\debug\assertions.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\ptr_traits.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\debug\debug.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\predefined_ops.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++allocator.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\new_allocator.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\new \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\exception \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\atomic_lockfree_defines.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\exception_ptr.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\nested_exception.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\memoryfwd.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\alloc_traits.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\alloc_traits.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_vector.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\initializer_list \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_bvector.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\functional_hash.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\hash_bytes.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\range_access.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\cstddef \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\stddef.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\stdint.h \
+ c:\vscode\include\stdint.h c:\vscode\include\_mingw.h \
+ c:\vscode\include\msvcrtver.h c:\vscode\include\w32api.h \
+ c:\vscode\include\sdkddkver.h \
+ C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/src/SFML/Window/Win32/VulkanImplWin32.hpp

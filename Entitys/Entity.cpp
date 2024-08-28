@@ -9,7 +9,9 @@ Entity::Entity(std::string ty, sf::Vector2f pos, sf::Vector2f si, QuadTree* q):
     velocity(sf::Vector2f(0, 0)),
     texture(),
     graphicsManager(GraphicsManager::getInstance()),
-    acelaracao(0.0f)
+    acelaracao(0.0f),
+    quadtree(q),
+    estaNoChao(false)
 {
     shape.setPosition(position);
 }
@@ -63,6 +65,16 @@ const std::string Entity::getStatus()
     return status;
 }
 
+void Entity::setEstaNoChao(const bool chao)
+{
+    estaNoChao = chao;
+}
+
+const bool Entity::getEstaNoChao()
+{
+    return estaNoChao;
+}
+
 sf::RectangleShape Entity::getShape()
 {
     return shape;
@@ -76,7 +88,7 @@ void Entity::design()
 void Entity::gravidade()
 {
     if(acelaracao < 10.0f)
-        acelaracao += 0.2f;
+        acelaracao += 0.05f;
     
     shape.move(sf::Vector2f(0, acelaracao));
 }
@@ -105,10 +117,11 @@ void Entity::colision(Entity *otherEntity, sf::FloatRect intersects)
             acelaracao = 0.0f;
         } else {
             overlap.y = intersects.height;
-            acelaracao = -acelaracao; 
         }
     }
 
     // Update the player's position based on the overlap
-    shape.move(overlap);
+    if(type == "PLAYER") {
+        shape.move(overlap);
+    }
 }

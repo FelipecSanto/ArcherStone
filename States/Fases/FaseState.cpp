@@ -10,7 +10,8 @@ graphicsMan(GraphicsManager::getInstance())
     sprite_mapa.setTexture(textura_mapa);
 
     for (const auto& pair : entitys) {
-        quadtree.inserir(pair.second, pair.second->getShape().getGlobalBounds());
+        if(pair.second->getType() != "PLATFORM")
+            quadtree.inserir(pair.second, pair.second->getShape().getGlobalBounds());
     }
 
     collisionMan->setQuadTree(&quadtree);

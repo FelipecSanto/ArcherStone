@@ -21,6 +21,8 @@ protected:
     GraphicsManager* graphicsManager;
     QuadTree* quadtree;
 
+    bool estaNoChao;
+
 public:
     Entity(std::string ty = "", sf::Vector2f pos = sf::Vector2f(0.0, 0.0), sf::Vector2f si = sf::Vector2f(0.0, 0.0), QuadTree* q = nullptr);
     ~Entity();
@@ -39,6 +41,9 @@ public:
 
     void setStatus(const std::string sta);
     const std::string getStatus();
+
+    void setEstaNoChao(const bool chao);
+    const bool getEstaNoChao();
 
     sf::RectangleShape getShape();
 

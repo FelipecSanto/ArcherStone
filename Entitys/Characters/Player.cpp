@@ -8,7 +8,10 @@ Player::Player(sf::Vector2f pos, sf::Vector2f si, QuadTree* q):
     level(1),
     experience(0),
     experienceNext(100),
-    Points(0)
+    Points(0),
+    dtPulo(0.0f),
+    pulando(false),
+    clockPulo()
 {
     //texture = *graphicsManager->loadTexture("Assets/Player.png");
     //shape.setTexture(&texture);
@@ -55,25 +58,69 @@ void Player::updateLevel()
 void Player::update()
 {
     move();
+    atualizarQuadtree();
     updateStats();
     updateLevel();
 }
 
 void Player::move()
 {
-    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
-        shape.move(0, -8);
-    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down))
-        shape.move(0, 8);
-    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
-        shape.move(-8, 0);
-    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
-        shape.move(8, 0);
+    if(acelaracao == 0.0f)
+        estaNoChao = true;
+
+    if(pulando) {
+        pulo();
+    }
+
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up) && estaNoChao) {
+        pulando = true;
+        estaNoChao = false;
+        //acelaracao = 0.0001f;
+    }
+    else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down) && velocity.y <= 20.0f && !estaNoChao) {
+        velocity.y += 4.0f;
+        shape.move(0, velocity.y);
+    }
+
+    //std::cout << "Pulando: " << pulando << std::endl;
+    //std::cout << "No chao: " << estaNoChao << std::endl;
+
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
+        if(velocity.x >= -8.0f)
+            velocity.x += -2.0f;
+        shape.move(velocity.x, 0);
+    }
+    else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
+        if(velocity.x <= 8.0f)
+            velocity.x += 2.0f;
+        shape.move(velocity.x, 0);
+    }
+
+    if (!sf::Keyboard::isKeyPressed(sf::Keyboard::Up) &&
+        !sf::Keyboard::isKeyPressed(sf::Keyboard::Down) &&
+        !sf::Keyboard::isKeyPressed(sf::Keyboard::Left) &&
+        !sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
+        velocity.x = 0.0f;
+        velocity.y = 0.0f;
+    }
+}
+
+void Player::pulo()
+{
+    dtPulo = clockPulo.getElapsedTime().asSeconds();
+    velocity.y = -VELOCIDADE_PULO + GRAVIDADE*dtPulo;
+    shape.move(0, velocity.y);
+
+    if(estaNoChao) {
+        pulando = false;
+        clockPulo.restart();
+    }
 }
 
 void Player::execute()
 {
     update();
-    gravidade();
+    if(!pulando)
+        gravidade();
     design();
 }

@@ -14,11 +14,11 @@
             "scaleInDock": 1
         },
         "Fase1_1.tmj": {
-            "scale": 0.5,
+            "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 845,
-                "y": 541
+                "x": 754.5,
+                "y": 531.5
             }
         },
         "blocks.tsx": {

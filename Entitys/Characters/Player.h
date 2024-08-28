@@ -1,6 +1,9 @@
 #pragma once
 #include "Character.h"
 
+#define VELOCIDADE_PULO 20.0f
+#define GRAVIDADE 0.001f
+
 class Player : public Character
 {
 private:
@@ -11,6 +14,10 @@ private:
     int experience;
     int experienceNext;
     int Points;
+
+    float dtPulo;
+    sf::Clock clockPulo;
+    bool pulando;
 
 public:
     Player(sf::Vector2f pos = sf::Vector2f(0.0, 0.0), sf::Vector2f si = sf::Vector2f(0.0, 0.0), QuadTree* q = nullptr);
@@ -29,6 +36,8 @@ public:
     void update();
 
     void move();
+
+    void pulo();
 
     void execute();
 };

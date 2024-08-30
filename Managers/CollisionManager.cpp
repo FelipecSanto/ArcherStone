@@ -43,14 +43,14 @@ void CollisionManager::verificarColisao(Entity* ent1, Entity* ent2){
         mapaColisoes[ent2->getType()](ent1, ent2, intersects);
         mapaColisoes[ent1->getType()](ent2, ent1, intersects);
     }
-    else{
+    /*else{
         if(ent1->getType() == "PLAYER"){
             ent1->setEstaNoChao(false);
         }
         else if(ent2->getType() == "PLAYER"){
             ent2->setEstaNoChao(false);
         }
-    }
+    }*/
 }
 
 /*void CollisionManager::executarBruto(std::vector<Entity*>* Entitys){

@@ -1,8 +1,8 @@
 #pragma once
 #include "Character.h"
 
-#define VELOCIDADE_PULO 20.0f
-#define GRAVIDADE 0.001f
+#define VELOCIDADE_PULO 7.0f
+#define GRAVIDADE 4.0f
 
 class Player : public Character
 {

@@ -88,7 +88,7 @@ void Entity::design()
 void Entity::gravidade()
 {
     if(acelaracao < 10.0f)
-        acelaracao += 0.05f;
+        acelaracao += 0.1f;
     
     shape.move(sf::Vector2f(0, acelaracao));
 }
@@ -115,6 +115,7 @@ void Entity::colision(Entity *otherEntity, sf::FloatRect intersects)
         if (shape.getPosition().y < otherEntity->getPosition().y) {
             overlap.y = -intersects.height;
             acelaracao = 0.0f;
+            estaNoChao = true;
         } else {
             overlap.y = intersects.height;
         }

@@ -65,36 +65,46 @@ void Player::update()
 
 void Player::move()
 {
-    if(acelaracao == 0.0f)
-        estaNoChao = true;
+    if(acelaracao != 0.0f)
+        estaNoChao = false;
+
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up) && estaNoChao) {
+        clockPulo.restart();
+        pulando = true;
+        estaNoChao = false;
+    }
+    else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down) && velocity.y <= 20.0f && !estaNoChao) {
+        velocity.y += 4.0f;
+    }
+
+    //std::cout << "Pulando: " << pulando << std::endl;
 
     if(pulando) {
         pulo();
     }
 
-    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up) && estaNoChao) {
-        pulando = true;
-        estaNoChao = false;
-        //acelaracao = 0.0001f;
+    if(estaNoChao) {
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
+            if(velocity.x >= -4.0f)
+                velocity.x -= 1.0f;
+        }
+        else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
+            if(velocity.x <= 4.0f)
+                velocity.x += 1.0f;
+        }
     }
-    else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down) && velocity.y <= 20.0f && !estaNoChao) {
-        velocity.y += 4.0f;
-        shape.move(0, velocity.y);
+    else {
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
+            if(velocity.x >= -2.0f)
+                velocity.x -= 0.5f;
+        }
+        else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
+            if(velocity.x <= 2.0f)
+                velocity.x += 0.5f;
+        }
     }
 
-    //std::cout << "Pulando: " << pulando << std::endl;
-    //std::cout << "No chao: " << estaNoChao << std::endl;
-
-    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
-        if(velocity.x >= -8.0f)
-            velocity.x += -2.0f;
-        shape.move(velocity.x, 0);
-    }
-    else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
-        if(velocity.x <= 8.0f)
-            velocity.x += 2.0f;
-        shape.move(velocity.x, 0);
-    }
+    shape.move(velocity);
 
     if (!sf::Keyboard::isKeyPressed(sf::Keyboard::Up) &&
         !sf::Keyboard::isKeyPressed(sf::Keyboard::Down) &&
@@ -109,7 +119,6 @@ void Player::pulo()
 {
     dtPulo = clockPulo.getElapsedTime().asSeconds();
     velocity.y = -VELOCIDADE_PULO + GRAVIDADE*dtPulo;
-    shape.move(0, velocity.y);
 
     if(estaNoChao) {
         pulando = false;
@@ -120,7 +129,6 @@ void Player::pulo()
 void Player::execute()
 {
     update();
-    if(!pulando)
-        gravidade();
+    gravidade();
     design();
 }

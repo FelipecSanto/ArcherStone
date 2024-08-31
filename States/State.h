@@ -1,21 +1,30 @@
 #pragma once
-#include "../Managers/StateManager.h"
+#include <string>
+#include <SFML/Graphics.hpp>
 
-class State
+namespace Managers {
+    class StateManager;
+    class GraphicsManager;
+}
+
+namespace States
 {
-protected:
-    StateManager* mediator;
-    GraphicsManager* graphicsManager;
-    std::string name;
+    class State
+    {
+    protected:
+        Managers::StateManager* stateManager;
+        Managers::GraphicsManager* graphicsManager;
+        std::string name;
 
-public:
-    State(std::string nam) : name(nam), mediator(StateManager::getInstance()), graphicsManager(GraphicsManager::getInstance()) {};
-    virtual ~State() {};
+    public:
+        State(std::string nam);
+        virtual ~State();
 
-    void setName(const std::string na) { name = na; }
-    std::string getName() { return name; }
+        void setName(const std::string na);
+        std::string getName();
 
-    virtual void handleEvent(const sf::Event* event) = 0;
-    virtual void draw() = 0;
-    virtual void execute() = 0;
-};
+        virtual void handleEvent(const sf::Event* event) = 0;
+        virtual void draw() = 0;
+        virtual void execute() = 0;
+    };
+}

@@ -10,19 +10,22 @@
 #include <fstream>
 #include <string>
 
-class Tilemap{
-    private:
-        nlohmann::json mapa; // mapa.json
-        std::multimap<std::string, Entity*>* entitys; // mapa de Entitys com a chave sendo o tipo (referencia da FaseState)
-        sf::Texture* textura_mapa;  
-        QuadTree* q; // quadtree (referencia da FaseState)
+namespace Maps
+{
+    class Tilemap{
+        private:
+            nlohmann::json map; // mapa.json
+            std::multimap<std::string, Entitys::Entity*>* entitys; // mapa de Entitys com a chave sendo o tipo (referencia da FaseState)
+            sf::Texture* map_texture;  
+            Maps::QuadTree* q; // quadtree (referencia da FaseState)
 
-    public:
-        Tilemap(QuadTree* q);
-        ~Tilemap();
+        public:
+            Tilemap(Maps::QuadTree* q);
+            ~Tilemap();
 
-        void carregarMapa(std::string mapJson);
-        void criarMapa(std::string caminhoMapa, std::multimap<std::string, Entity*>* entitys, sf::Texture* textura_mapa);
-        Entity* criarEntity (sf::Vector2f posicao, sf::Vector2f tamanho, int tipo);
-        nlohmann::json getMapa();
-};
+            void loadMap(std::string mapJson);
+            void createMap(std::string mapFilePath, std::multimap<std::string, Entitys::Entity*>* entitys, sf::Texture* map_texture);
+            Entitys::Entity* createEntity (sf::Vector2f pos, sf::Vector2f size, int type);
+            nlohmann::json getMap();
+    };
+}

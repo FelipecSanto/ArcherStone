@@ -1,22 +1,28 @@
 #pragma once
 #include "MenuState.h"
 
-class MenuInicialState : public MenuState
+namespace States
 {
-private:
-    Button* newGame;
-    Button* continueGame;
-    Button* loadGame;
-    Button* tutorial;
-    Button* ranking;
-    Button* options;
-    Button* exit;
+    namespace Menus
+    {
+        class MenuInicialState : public MenuState
+        {
+        private:
+            GraphicsElements::Button* newGame;
+            GraphicsElements::Button* continueGame;
+            GraphicsElements::Button* loadGame;
+            GraphicsElements::Button* tutorial;
+            GraphicsElements::Button* ranking;
+            GraphicsElements::Button* options;
+            GraphicsElements::Button* exit;
 
-public:
-    MenuInicialState();
-    ~MenuInicialState();
+        public:
+            MenuInicialState();
+            ~MenuInicialState();
 
-    void handleEvent(const sf::Event* event);
-    void draw();
-    void execute();
-};
+            void handleEvent(const sf::Event* event);
+            void draw();
+            void execute();
+        };
+    }
+}

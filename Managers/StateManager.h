@@ -1,47 +1,43 @@
 #pragma once
 #include "GraphicsManager.h"
+#include "../States/State.h"
 #include <map>
+#include <string>
 
-class FaseState;
-class MenuInicialState;
-class MenuPauseState;
-class MenuOptionsState;
-class MenuRankingState;
-class State;
-
-// Singleton
-class StateManager
+namespace Managers
 {
-private:
-    std::map<std::string, State*> statesMap;
-    std::string currentState;
+    class StateManager
+    {
+    private:
+        std::map<std::string, States::State*> statesMap;
+        std::string currentState;
 
-    GraphicsManager* graphicsManager;
+        Managers::GraphicsManager* graphicsManager;
 
-    // Singleton instance
-    static StateManager* instance;
+        // Singleton instance
+        static Managers::StateManager* instance;
 
-    // Private constructor to prevent instantiation
-    StateManager();
+        // Private constructor to prevent instantiation
+        StateManager();
 
-public:
-    ~StateManager();
+    public:
+        ~StateManager();
 
-    // Get the singleton instance
-    static StateManager* getInstance();
+        // Get the singleton instance
+        static Managers::StateManager* getInstance();
 
-    void setCurrentState(const std::string stateName);
-    std::string getCurrentStateName();
-    State* getCurrentState();
+        void setCurrentState(const std::string stateName);
+        std::string getCurrentStateName();
+        States::State* getCurrentState();
 
-    void addCurrentState(State* state);
-    void removeState(const std::string stateName);
+        void addCurrentState(States::State* state);
+        void removeState(const std::string stateName);
 
-    State* getState(const std::string stateName);
+        States::State* getState(const std::string stateName);
 
-    // Run the game loop
-    void run();
+        // Run the game loop
+        void run();
 
-    void changeState(std::string stateName);
-};
-
+        void changeState(std::string stateName);
+    };
+}

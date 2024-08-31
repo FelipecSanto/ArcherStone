@@ -4,40 +4,49 @@
 #define VELOCIDADE_PULO 7.0f
 #define GRAVIDADE 4.0f
 
-class Player : public Character
+namespace Entitys
 {
-private:
-    int health;
-    int maxHealth;
-    int damage;
-    int level;
-    int experience;
-    int experienceNext;
-    int Points;
+    namespace Characters
+    {
+        namespace Players
+        {
+            class Player : public Character
+            {
+            private:
+                int health;
+                int maxHealth;
+                int damage;
+                int level;
+                int experience;
+                int experienceNext;
+                int Points;
 
-    float dtPulo;
-    sf::Clock clockPulo;
-    bool pulando;
+                float dtJump;
+                sf::Clock jumpClock;
+                bool jumping;
 
-public:
-    Player(sf::Vector2f pos = sf::Vector2f(0.0, 0.0), sf::Vector2f si = sf::Vector2f(0.0, 0.0), QuadTree* q = nullptr);
-    virtual ~Player();
+            public:
+                Player(sf::Vector2f pos = sf::Vector2f(0.0, 0.0), sf::Vector2f si = sf::Vector2f(0.0, 0.0), Maps::QuadTree* q = nullptr);
+                virtual ~Player();
 
-    void loseHP(const int hp);
-    void gainHP(const int hp);
-    void loseExp(const int exp);
-    void gainExp(const int exp);
+                void loseHP(const int hp);
+                void gainHP(const int hp);
+                void loseExp(const int exp);
+                void gainExp(const int exp);
 
-    void loseMoney(const int money);
-    void gainMoney(const int money);
+                void loseMoney(const int money);
+                void gainMoney(const int money);
 
-    void updateStats();
-    void updateLevel();
-    void update();
+                void updateStats();
+                void updateLevel();
+                void update();
 
-    void move();
+                void move();
 
-    void pulo();
+                void executeJump();
 
-    void execute();
-};
+                void execute();
+            };
+        }
+    }
+}

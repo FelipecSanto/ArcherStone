@@ -5,56 +5,59 @@
 #include "../Managers/GraphicsManager.h"
 #include "../Mapa/QuadTree.h"
 
-class Entity {
-protected:
-    sf::RectangleShape shape;
-    sf::Texture texture;
-    sf::Vector2f position;
-    const sf::Vector2f size;
-    sf::Vector2f velocity;
+namespace Entitys 
+{
+    class Entity {
+    protected:
+        sf::RectangleShape shape;
+        sf::Texture texture;
+        sf::Vector2f position;
+        const sf::Vector2f size;
+        sf::Vector2f velocity;
 
-    const std::string type;
-    std::string status;
+        const std::string type;
+        std::string status;
 
-    float acelaracao;
+        float acceleration;
 
-    GraphicsManager* graphicsManager;
-    QuadTree* quadtree;
+        Managers::GraphicsManager* graphicsManager;
+        Maps::QuadTree* quadtree;
 
-    bool estaNoChao;
+        bool onGround;
 
-public:
-    Entity(std::string ty = "", sf::Vector2f pos = sf::Vector2f(0.0, 0.0), sf::Vector2f si = sf::Vector2f(0.0, 0.0), QuadTree* q = nullptr);
-    ~Entity();
+    public:
+        Entity(std::string ty = "", sf::Vector2f pos = sf::Vector2f(0.0, 0.0), sf::Vector2f si = sf::Vector2f(0.0, 0.0), Maps::QuadTree* q = nullptr);
+        ~Entity();
 
-    const sf::Texture getTexture();
+        const sf::Texture getTexture();
 
-    void setPosition(const sf::Vector2f pos);
-    const sf::Vector2f getPosition();
+        void setPosition(const sf::Vector2f pos);
+        const sf::Vector2f getPosition();
 
-    const sf::Vector2f getSize();
+        const sf::Vector2f getSize();
 
-    void setVelocity(const sf::Vector2f vel);
-    const sf::Vector2f getVelocity();
+        void setVelocity(const sf::Vector2f vel);
+        const sf::Vector2f getVelocity();
 
-    const std::string getType();
+        const std::string getType();
 
-    void setStatus(const std::string sta);
-    const std::string getStatus();
+        void setStatus(const std::string sta);
+        const std::string getStatus();
 
-    void setEstaNoChao(const bool chao);
-    const bool getEstaNoChao();
+        void setOnGround(const bool chao);
+        const bool getOnGround();
 
-    sf::RectangleShape getShape();
+        sf::RectangleShape getShape();
 
-    void design();
+        void design();
 
-    void gravidade();
+        void applyGravity();
 
-    void atualizarQuadtree();
+        void updateQuadtree();
 
-    virtual void execute() = 0;
+        virtual void execute() = 0;
 
-    void colision(Entity* otherEntity, sf::FloatRect intersects);
+        void colision(Entity* otherEntity, sf::FloatRect intersects);
 
-};
+    };
+}

@@ -59,6 +59,7 @@ list(APPEND _cmake_import_check_files_for_sfml-graphics "${_IMPORT_PREFIX}/lib/l
 set_property(TARGET sfml-audio APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(sfml-audio PROPERTIES
   IMPORTED_IMPLIB_NOCONFIG "${_IMPORT_PREFIX}/lib/libsfml-audio.a"
+  IMPORTED_LINK_DEPENDENT_LIBRARIES_NOCONFIG "OpenAL::OpenAL"
   IMPORTED_LOCATION_NOCONFIG "${_IMPORT_PREFIX}/bin/sfml-audio-2.dll"
   )
 

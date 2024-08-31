@@ -1,18 +1,24 @@
 #pragma once
 #include "MenuState.h"
 
-class MenuRankingState : public MenuState
+namespace States
 {
-private:
-    Button* voltar;
-    sf::Text pontos;
-    sf::Text name;
+    namespace Menus
+    {
+        class MenuRankingState : public MenuState
+        {
+        private:
+            GraphicsElements::Button* returnButton;
+            sf::Text score;
+            sf::Text name;
 
-public:
-    MenuRankingState();
-    ~MenuRankingState();
+        public:
+            MenuRankingState();
+            ~MenuRankingState();
 
-    void handleEvent(const sf::Event* event);
-    void draw();
-    void execute();
-};
+            void handleEvent(const sf::Event* event);
+            void draw();
+            void execute();
+        };
+    }
+}

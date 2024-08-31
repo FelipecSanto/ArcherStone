@@ -1,14 +1,20 @@
 #include "MenuState.h"
 
-MenuState::MenuState(std::string nam):
-State(nam),
-title(),
-background(),
-texture(),
-font()
+namespace States
 {
-}
+    namespace Menus
+    {
+        MenuState::MenuState(std::string nam):
+        State(nam),
+        title(),
+        background(),
+        texture(),
+        font()
+        {
+        }
 
-MenuState::~MenuState()
-{
+        MenuState::~MenuState()
+        {
+        }
+    }
 }

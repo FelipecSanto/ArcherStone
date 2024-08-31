@@ -30,6 +30,7 @@ target_sources(${PROJECT_NAME} PRIVATE
     GraphicsElements/Button.h
     GraphicsElements/Button.cpp
     States/State.h
+    States/State.cpp
     States/Fases/GameState.h
     States/Fases/GameState.cpp
     States/Fases/FaseState.h

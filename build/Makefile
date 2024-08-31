@@ -679,6 +679,30 @@ States/Menus/MenuState.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/States/Menus/MenuState.cpp.s
 .PHONY : States/Menus/MenuState.cpp.s
 
+States/State.obj: States/State.cpp.obj
+.PHONY : States/State.obj
+
+# target to build an object file
+States/State.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/States/State.cpp.obj
+.PHONY : States/State.cpp.obj
+
+States/State.i: States/State.cpp.i
+.PHONY : States/State.i
+
+# target to preprocess a source file
+States/State.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/States/State.cpp.i
+.PHONY : States/State.cpp.i
+
+States/State.s: States/State.cpp.s
+.PHONY : States/State.s
+
+# target to generate assembly for a file
+States/State.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/States/State.cpp.s
+.PHONY : States/State.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -775,6 +799,9 @@ help:
 	@echo ... States/Menus/MenuState.obj
 	@echo ... States/Menus/MenuState.i
 	@echo ... States/Menus/MenuState.s
+	@echo ... States/State.obj
+	@echo ... States/State.i
+	@echo ... States/State.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

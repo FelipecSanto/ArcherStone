@@ -6,25 +6,27 @@
 #include "../Entitys/Characters/Player.h"
 #include "../Entitys/Platform.h"
 
-class CollisionManager{
-    private:
-        std::unordered_map<std::string, std::function<void(Entity*, Entity*, sf::FloatRect)>> mapaColisoes;
+namespace Managers 
+{
+    class CollisionManager {
+        private:
+            std::unordered_map<std::string, std::function<void(Entitys::Entity*, Entitys::Entity*, sf::FloatRect)>> collisionMap;
 
-        static CollisionManager* instancia;
+            static CollisionManager* instance;
 
-        QuadTree* quadtree;
+            Maps::QuadTree* quadtree;
 
-        CollisionManager();
+            CollisionManager();
 
-    public:
-        ~CollisionManager();
+        public:
+            ~CollisionManager();
 
-        static CollisionManager* getInstance();
+            static CollisionManager* getInstance();
 
-        void setQuadTree(QuadTree* q);
+            void setQuadTree(Maps::QuadTree* q);
 
-        void criarMapaColisoes();
-        void verificarColisao(Entity* ent1, Entity* ent2);
-        void executar(std::multimap<std::string, Entity*>* entitys);
-        //void executarBruto(std::vector<Entity*>* Entitys);
-};
+            void createCollisionMap();
+            void checkCollision(Entitys::Entity* ent1, Entitys::Entity* ent2);
+            void execute(std::multimap<std::string, Entitys::Entity*>* entitys);
+    };
+}

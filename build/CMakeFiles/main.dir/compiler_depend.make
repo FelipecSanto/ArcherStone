@@ -2431,9 +2431,8 @@ CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj: C:/Users/felpi/Documents/PET
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Characters/Player.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Entity.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Platform.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/CollisionManager.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Mapa/QuadTree.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Mapa/tilemap.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/nlohmann/json.hpp \
@@ -2708,8 +2707,8 @@ CMakeFiles/main.dir/States/Fases/GameState.cpp.obj: C:/Users/felpi/Documents/PET
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Characters/Player.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Entity.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Platform.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/CollisionManager.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Mapa/QuadTree.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
@@ -3973,6 +3972,225 @@ CMakeFiles/main.dir/States/Menus/MenuState.cpp.obj: C:/Users/felpi/Documents/PET
   C:/VScode/lib/gcc/mingw32/6.3.0/include/stddef.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/stdint.h
 
+CMakeFiles/main.dir/States/State.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.cpp \
+  _deps/sfml-src/include/SFML/Config.hpp \
+  _deps/sfml-src/include/SFML/Graphics.hpp \
+  _deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
+  _deps/sfml-src/include/SFML/Graphics/CircleShape.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Color.hpp \
+  _deps/sfml-src/include/SFML/Graphics/ConvexShape.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Drawable.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Export.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Font.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Glsl.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Glsl.inl \
+  _deps/sfml-src/include/SFML/Graphics/Glyph.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Image.hpp \
+  _deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Rect.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Rect.inl \
+  _deps/sfml-src/include/SFML/Graphics/RectangleShape.hpp \
+  _deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
+  _deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp \
+  _deps/sfml-src/include/SFML/Graphics/RenderTexture.hpp \
+  _deps/sfml-src/include/SFML/Graphics/RenderWindow.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Shader.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Shape.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Sprite.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Text.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Texture.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Transform.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Transformable.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
+  _deps/sfml-src/include/SFML/Graphics/VertexArray.hpp \
+  _deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp \
+  _deps/sfml-src/include/SFML/Graphics/View.hpp \
+  _deps/sfml-src/include/SFML/System.hpp \
+  _deps/sfml-src/include/SFML/System/Clock.hpp \
+  _deps/sfml-src/include/SFML/System/Err.hpp \
+  _deps/sfml-src/include/SFML/System/Export.hpp \
+  _deps/sfml-src/include/SFML/System/FileInputStream.hpp \
+  _deps/sfml-src/include/SFML/System/InputStream.hpp \
+  _deps/sfml-src/include/SFML/System/Lock.hpp \
+  _deps/sfml-src/include/SFML/System/MemoryInputStream.hpp \
+  _deps/sfml-src/include/SFML/System/Mutex.hpp \
+  _deps/sfml-src/include/SFML/System/NonCopyable.hpp \
+  _deps/sfml-src/include/SFML/System/Sleep.hpp \
+  _deps/sfml-src/include/SFML/System/String.hpp \
+  _deps/sfml-src/include/SFML/System/String.inl \
+  _deps/sfml-src/include/SFML/System/Thread.hpp \
+  _deps/sfml-src/include/SFML/System/Thread.inl \
+  _deps/sfml-src/include/SFML/System/ThreadLocal.hpp \
+  _deps/sfml-src/include/SFML/System/ThreadLocalPtr.hpp \
+  _deps/sfml-src/include/SFML/System/ThreadLocalPtr.inl \
+  _deps/sfml-src/include/SFML/System/Time.hpp \
+  _deps/sfml-src/include/SFML/System/Utf.hpp \
+  _deps/sfml-src/include/SFML/System/Utf.inl \
+  _deps/sfml-src/include/SFML/System/Vector2.hpp \
+  _deps/sfml-src/include/SFML/System/Vector2.inl \
+  _deps/sfml-src/include/SFML/System/Vector3.hpp \
+  _deps/sfml-src/include/SFML/System/Vector3.inl \
+  _deps/sfml-src/include/SFML/Window.hpp \
+  _deps/sfml-src/include/SFML/Window/Clipboard.hpp \
+  _deps/sfml-src/include/SFML/Window/Context.hpp \
+  _deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
+  _deps/sfml-src/include/SFML/Window/Cursor.hpp \
+  _deps/sfml-src/include/SFML/Window/Event.hpp \
+  _deps/sfml-src/include/SFML/Window/Export.hpp \
+  _deps/sfml-src/include/SFML/Window/GlResource.hpp \
+  _deps/sfml-src/include/SFML/Window/Joystick.hpp \
+  _deps/sfml-src/include/SFML/Window/Keyboard.hpp \
+  _deps/sfml-src/include/SFML/Window/Mouse.hpp \
+  _deps/sfml-src/include/SFML/Window/Sensor.hpp \
+  _deps/sfml-src/include/SFML/Window/Touch.hpp \
+  _deps/sfml-src/include/SFML/Window/VideoMode.hpp \
+  _deps/sfml-src/include/SFML/Window/Vulkan.hpp \
+  _deps/sfml-src/include/SFML/Window/Window.hpp \
+  _deps/sfml-src/include/SFML/Window/WindowBase.hpp \
+  _deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
+  _deps/sfml-src/include/SFML/Window/WindowStyle.hpp \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
+  C:/VScode/include/_mingw.h \
+  C:/VScode/include/ctype.h \
+  C:/VScode/include/direct.h \
+  C:/VScode/include/errno.h \
+  C:/VScode/include/io.h \
+  C:/VScode/include/locale.h \
+  C:/VScode/include/msvcrtver.h \
+  C:/VScode/include/process.h \
+  C:/VScode/include/sdkddkver.h \
+  C:/VScode/include/stdint.h \
+  C:/VScode/include/stdio.h \
+  C:/VScode/include/stdlib.h \
+  C:/VScode/include/sys/stat.h \
+  C:/VScode/include/sys/types.h \
+  C:/VScode/include/sys/types.h \
+  C:/VScode/include/time.h \
+  C:/VScode/include/w32api.h \
+  C:/VScode/include/wchar.h \
+  C:/VScode/include/wctype.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/algorithm \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/array \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/algorithmfwd.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_ios.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_ios.tcc \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/codecvt.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/hash_bytes.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/ios_base.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/istream.tcc \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_classes.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_classes.tcc \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_conv.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_facets.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_facets.tcc \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_facets_nonio.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_facets_nonio.tcc \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/memoryfwd.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/nested_exception.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream.tcc \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algo.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_heap.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_map.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_multimap.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_relops.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tempbuf.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tree.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_uninitialized.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stream_iterator.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf.tcc \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf_iterator.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/unique_ptr.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/uses_allocator.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/vector.tcc \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/cctype \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/clocale \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/cstddef \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ctime \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/cwchar \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/cwctype \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/exception \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/aligned_buffer.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ios \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/istream \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/iterator \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/limits \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/locale \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/map \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++locale.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/ctype_base.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/ctype_inline.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/error_constants.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/messages_members.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/time_members.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/new \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ostream \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/stdexcept \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/streambuf \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/string \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/system_error \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/tuple \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/utility \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/vector \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/stdint.h
+
 CMakeFiles/main.dir/main.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/main.cpp \
   _deps/sfml-src/include/SFML/Config.hpp \
   _deps/sfml-src/include/SFML/Graphics.hpp \
@@ -4050,11 +4268,11 @@ CMakeFiles/main.dir/main.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/m
   _deps/sfml-src/include/SFML/Window/WindowBase.hpp \
   _deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
   _deps/sfml-src/include/SFML/Window/WindowStyle.hpp \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/States/Menus/MenuInicialState.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/States/Menus/MenuState.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/GraphicsElements/Button.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
   C:/VScode/include/_mingw.h \
   C:/VScode/include/ctype.h \
@@ -4701,6 +4919,8 @@ C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Platform.cpp:
 C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Platform.h:
 
 C:/Users/felpi/Documents/PETECO/ProjectSimas/GraphicsElements/Button.cpp:
+
+C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.cpp:
 
 C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/backward/auto_ptr.h:
 

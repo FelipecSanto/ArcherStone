@@ -1,20 +1,27 @@
 #pragma once
 #include "../State.h"
 #include "../../GraphicsElements/Button.h"
+#include "../../Managers/StateManager.h"
 
-class MenuState : public State
+namespace States
 {
-protected:
-    sf::Text title;
-    sf::RectangleShape background;
-    sf::Texture texture;
-    sf::Font font;
+    namespace Menus
+    {
+        class MenuState : public State
+        {
+        protected:
+            sf::Text title;
+            sf::RectangleShape background;
+            sf::Texture texture;
+            sf::Font font;
 
-public:
-    MenuState(std::string nam = "MenuState");
-    ~MenuState();
+        public:
+            MenuState(std::string nam = "MenuState");
+            ~MenuState();
 
-    void handleEvent(const sf::Event* event) = 0;
-    void draw() = 0;
-    void execute() = 0;
-};
+            void handleEvent(const sf::Event* event) = 0;
+            void draw() = 0;
+            void execute() = 0;
+        };
+    }
+}

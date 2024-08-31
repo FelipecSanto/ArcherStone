@@ -439,8 +439,8 @@ _deps/sfml-build/lib/sfml-audio-2.dll: _deps/sfml-build/src/SFML/Audio/CMakeFile
 _deps/sfml-build/lib/sfml-audio-2.dll: _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.obj
 _deps/sfml-build/lib/sfml-audio-2.dll: _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/sfml-audio.rc.obj
 _deps/sfml-build/lib/sfml-audio-2.dll: _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make
-_deps/sfml-build/lib/sfml-audio-2.dll: _deps/sfml-build/lib/libsfml-system.a
 _deps/sfml-build/lib/sfml-audio-2.dll: _deps/sfml-src/extlibs/libs-mingw/x86/libopenal32.a
+_deps/sfml-build/lib/sfml-audio-2.dll: _deps/sfml-build/lib/libsfml-system.a
 _deps/sfml-build/lib/sfml-audio-2.dll: _deps/sfml-src/extlibs/libs-mingw/x86/libvorbisenc.a
 _deps/sfml-build/lib/sfml-audio-2.dll: _deps/sfml-src/extlibs/libs-mingw/x86/libvorbisfile.a
 _deps/sfml-build/lib/sfml-audio-2.dll: _deps/sfml-src/extlibs/libs-mingw/x86/libvorbis.a

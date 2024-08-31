@@ -19,7 +19,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set(_cmake_targets_defined "")
 set(_cmake_targets_not_defined "")
 set(_cmake_expected_targets "")
-foreach(_cmake_expected_target IN ITEMS sfml-system sfml-main sfml-window OpenGL sfml-network sfml-graphics Freetype OpenAL VORBIS FLAC sfml-audio)
+foreach(_cmake_expected_target IN ITEMS sfml-system sfml-main sfml-window OpenGL sfml-network sfml-graphics Freetype VORBIS FLAC sfml-audio)
   list(APPEND _cmake_expected_targets "${_cmake_expected_target}")
   if(TARGET "${_cmake_expected_target}")
     list(APPEND _cmake_targets_defined "${_cmake_expected_target}")
@@ -99,14 +99,6 @@ set_target_properties(Freetype PROPERTIES
   INTERFACE_LINK_LIBRARIES "C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/extlibs/libs-mingw/x86/libfreetype.a"
 )
 
-# Create imported target OpenAL
-add_library(OpenAL INTERFACE IMPORTED)
-
-set_target_properties(OpenAL PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/extlibs/headers/AL"
-  INTERFACE_LINK_LIBRARIES "C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/extlibs/libs-mingw/x86/libopenal32.a"
-)
-
 # Create imported target VORBIS
 add_library(VORBIS INTERFACE IMPORTED)
 
@@ -172,6 +164,7 @@ set_target_properties(sfml-graphics PROPERTIES
 set_property(TARGET sfml-audio APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(sfml-audio PROPERTIES
   IMPORTED_IMPLIB_NOCONFIG "C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-build/lib/libsfml-audio.a"
+  IMPORTED_LINK_DEPENDENT_LIBRARIES_NOCONFIG "OpenAL::OpenAL"
   IMPORTED_LOCATION_NOCONFIG "C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-build/lib/sfml-audio-2.dll"
   )
 

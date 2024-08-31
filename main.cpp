@@ -1,10 +1,11 @@
 #include <iostream>
 #include <stack>
+#include "Managers/StateManager.h"
 #include "States/Menus/MenuInicialState.h"
 
 int main(){    
-    StateManager* stateManager = StateManager::getInstance();
-    stateManager->addCurrentState(static_cast<State*>(new MenuInicialState()));
+    Managers::StateManager* stateManager = Managers::StateManager::getInstance();
+    stateManager->addCurrentState(static_cast<States::State*>(new States::Menus::MenuInicialState()));
     stateManager->run();
 
     return 0;

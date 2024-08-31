@@ -1,21 +1,27 @@
 #pragma once
 #include "MenuState.h"
 
-class MenuOptionsState : public MenuState
+namespace States
 {
-private:
-    Button* mudaResolucao;
-    Button* mudaSom;
-    Button* mudaIdioma;
-    Button* mudaControles;
-    Button* voltar;
-    int opcao;
+    namespace Menus
+    {
+        class MenuOptionsState : public MenuState
+        {
+        private:
+            GraphicsElements::Button* changeResolution;
+            GraphicsElements::Button* changeSound;
+            GraphicsElements::Button* changeLanguage;
+            GraphicsElements::Button* changeControls;
+            GraphicsElements::Button* returnButton;
+            int opcao;
 
-public:
-    MenuOptionsState();
-    ~MenuOptionsState();
+        public:
+            MenuOptionsState();
+            ~MenuOptionsState();
 
-    void handleEvent(const sf::Event* event);
-    void draw();
-    void execute();
-};
+            void handleEvent(const sf::Event* event);
+            void draw();
+            void execute();
+        };
+    }
+}

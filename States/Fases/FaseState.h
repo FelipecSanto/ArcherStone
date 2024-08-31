@@ -2,21 +2,27 @@
 #include "GameState.h"
 #include "../../Mapa/tilemap.h"
 
-class FaseState : public GameState {
-    private:
-        std::multimap<std::string, Entity*> entitys;
-        sf::Texture textura_mapa;
-        sf::Sprite sprite_mapa;
-       
-        Tilemap tilemap; // responsavel por criar o mapa
-        QuadTree quadtree; // responsavel por dividir o mapa em quadrantes
-        GraphicsManager* graphicsMan;
+namespace States
+{
+    namespace Fases
+    {
+        class FaseState : public GameState {
+            private:
+                std::multimap<std::string, Entitys::Entity*> entitys;
+                sf::Texture map_texture;
+                sf::Sprite sprite_mapa;
+            
+                Maps::Tilemap tilemap; // responsavel por criar o mapa
+                Maps::QuadTree quadtree; // responsavel por dividir o mapa em quadrantes
+                Managers::GraphicsManager* graphicsMan;
 
-    public:
-        FaseState(std::string tilemapFaseState);
-        ~FaseState();
+            public:
+                FaseState(std::string tilemapFaseState);
+                ~FaseState();
 
-        void executeEntitys();
-        void draw();
-        void execute();
-};
+                void executeEntitys();
+                void draw();
+                void execute();
+        };
+    }
+}

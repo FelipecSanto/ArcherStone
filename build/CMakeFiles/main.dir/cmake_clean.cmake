@@ -33,6 +33,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/States/Menus/MenuRankingState.cpp.obj.d"
   "CMakeFiles/main.dir/States/Menus/MenuState.cpp.obj"
   "CMakeFiles/main.dir/States/Menus/MenuState.cpp.obj.d"
+  "CMakeFiles/main.dir/States/State.cpp.obj"
+  "CMakeFiles/main.dir/States/State.cpp.obj.d"
   "CMakeFiles/main.dir/main.cpp.obj"
   "CMakeFiles/main.dir/main.cpp.obj.d"
   "libmain.dll.a"

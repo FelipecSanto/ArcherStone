@@ -216,9 +216,9 @@ CMakeFiles/main.dir/Managers/StateManager.cpp.obj: \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/Sprite.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/Text.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp \
+ c:\users\felpi\documents\peteco\projectsimas\states\state.h \
  c:\users\felpi\documents\peteco\projectsimas\states\menus\menuinicialstate.h \
  c:\users\felpi\documents\peteco\projectsimas\states\menus\MenuState.h \
- c:\users\felpi\documents\peteco\projectsimas\states\state.h \
  c:\users\felpi\documents\peteco\projectsimas\graphicselements\button.h \
  c:\users\felpi\documents\peteco\projectsimas\states\fases\fasestate.h \
  c:\users\felpi\documents\peteco\projectsimas\states\fases\GameState.h \

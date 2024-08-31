@@ -1,43 +1,46 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 
-class GraphicsManager
+namespace Managers
 {
-private:
-    sf::RenderWindow window;
-    sf::View camera;
+    class GraphicsManager
+    {
+    private:
+        sf::RenderWindow window;
+        sf::View viewport;
 
-    static GraphicsManager* instance;
+        static GraphicsManager* instance;
 
-    GraphicsManager();
+        GraphicsManager();
 
-public:
-    ~GraphicsManager();
+    public:
+        ~GraphicsManager();
 
-    static GraphicsManager* getInstance();
+        static GraphicsManager* getInstance();
 
-    void clear();
+        void clear();
 
-    void loadTexture(const std::string path, sf::Texture* texture);
-    void loadFont(const std::string path, sf::Font* font);
-    void setFPS(const int fps);
+        void loadTexture(const std::string path, sf::Texture* texture);
+        void loadFont(const std::string path, sf::Font* font);
+        void setFPS(const int fps);
 
-    void setView(const sf::View view);
-    void setViewCenter(const sf::Vector2f center);
+        void setView(const sf::View view);
+        void setViewCenter(const sf::Vector2f center);
 
-    sf::Vector2f getViewCenter();
-    sf::View getView();
+        sf::Vector2f getViewCenter();
+        sf::View getView();
 
-    void draw(const sf::Text t);
-    void draw(const sf::RectangleShape shape);
-    void draw(const sf::Sprite sprite);
+        void draw(const sf::Text t);
+        void draw(const sf::RectangleShape shape);
+        void draw(const sf::Sprite sprite);
 
-    void display();
+        void display();
 
-    sf::RenderWindow* getWindow();
-    const sf::Vector2f getWindowSize();
+        sf::RenderWindow* getWindow();
+        const sf::Vector2f getWindowSize();
 
-    const bool isOpen();
+        const bool isOpen();
 
-    void CloseWindow();
-};
+        void CloseWindow();
+    };
+}

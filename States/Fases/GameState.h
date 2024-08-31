@@ -1,22 +1,29 @@
 #pragma once
 #include "../State.h"
 #include "../../Managers/CollisionManager.h"
+#include "../../Managers/StateManager.h"
 
-class GameState : public State
+namespace States
 {
-protected:
-    sf::RectangleShape corpo;
-    sf::Texture fundo;
+    namespace Fases
+    {
+        class GameState : public State
+        {
+        protected:
+            sf::RectangleShape corpo;
+            sf::Texture fundo;
 
-    CollisionManager* collisionMan;
+            Managers::CollisionManager* collisionMan;
 
-public:
-    GameState(std::string name = "GameState");
-    ~GameState();
+        public:
+            GameState(std::string name = "GameState");
+            ~GameState();
 
-    void handleEvent(const sf::Event* event);
-    virtual void draw() = 0;
-    virtual void execute() = 0;
-};
+            void handleEvent(const sf::Event* event);
+            virtual void draw() = 0;
+            virtual void execute() = 0;
+        };
+    }
+}
 
 

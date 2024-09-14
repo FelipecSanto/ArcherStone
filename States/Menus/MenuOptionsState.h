@@ -19,7 +19,7 @@ namespace States
             MenuOptionsState();
             ~MenuOptionsState();
 
-            void handleEvent(const sf::Event* event);
+            void mouseMenuInteractions();
             void draw();
             void execute();
         };

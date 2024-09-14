@@ -17,14 +17,28 @@ namespace Entitys
                 Points(0),
                 dtJump(0.0f),
                 jumping(false),
-                jumpClock()
+                jumpClock(),
+                plObserver(new Observers::PlayerObserver(this))
             {
-                //texture = *graphicsManager->loadTexture("Assets/Player.png");
+                eventsMgr->addObserver(plObserver);
+                //texture = *graphicsMgr->loadTexture("Assets/Player.png");
                 //shape.setTexture(&texture);
             }
 
             Player::~Player()
             {
+                delete plObserver;
+                plObserver = nullptr;
+            }
+
+            void Player::setJumping(const bool jump)
+            {
+                jumping = jump;
+            }
+
+            const bool Player::getJumping()
+            {
+                return jumping;
             }
 
             void Player::loseHP(const int hp)
@@ -63,76 +77,67 @@ namespace Entitys
 
             void Player::update()
             {
-                move();
                 updateQuadtree();
                 updateStats();
                 updateLevel();
             }
 
-            void Player::move()
+            void Player::move(std::string movement)
             {
                 if(acceleration != 0.0f)
                     onGround = false;
 
-                if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up) && onGround) {
-                    jumpClock.restart();
-                    jumping = true;
-                    onGround = false;
-                }
-                else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down) && velocity.y <= 20.0f && !onGround) {
+                if(movement == "DOWNWARD" && velocity.y <= 20.0f) {
                     velocity.y += 4.0f;
                 }
 
-                if(jumping) {
-                    executeJump();
+                if(movement == "LEFTWARD" && velocity.x >= -4.0f) {
+                    velocity.x -= 1.0f;
                 }
-
-                if(onGround) {
-                    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
-                        if(velocity.x >= -4.0f)
-                            velocity.x -= 1.0f;
-                    }
-                    else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
-                        if(velocity.x <= 4.0f)
-                            velocity.x += 1.0f;
-                    }
+                else if(movement == "RIGHTWARD" && velocity.x <= 4.0f) {
+                     velocity.x += 1.0f;
                 }
-                else {
-                    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
-                        if(velocity.x >= -2.0f)
-                            velocity.x -= 0.5f;
-                    }
-                    else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
-                        if(velocity.x <= 2.0f)
-                            velocity.x += 0.5f;
-                    }
+               
+                if(movement == "LEFTWARD FLYING" && velocity.x >= -2.0f) {
+                    velocity.x -= 0.5f;
+                }
+                else if(movement == "RIGHTWARD FLYING" && velocity.x <= 2.0f) {
+                    velocity.x += 0.5f;
                 }
 
                 shape.move(velocity);
+            }
 
-                if (!sf::Keyboard::isKeyPressed(sf::Keyboard::Up) &&
-                    !sf::Keyboard::isKeyPressed(sf::Keyboard::Down) &&
-                    !sf::Keyboard::isKeyPressed(sf::Keyboard::Left) &&
-                    !sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
+            void Player::stop(std::string direction)
+            {
+                if(direction == "X")
                     velocity.x = 0.0f;
+                else
                     velocity.y = 0.0f;
-                }
+            }
+
+            void Player::restartJumpClock()
+            {
+                jumpClock.restart();
             }
 
             void Player::executeJump()
             {
-                dtJump = jumpClock.getElapsedTime().asSeconds();
-                velocity.y = -VELOCIDADE_PULO + GRAVIDADE*dtJump;
+                if(jumping) {
+                    dtJump = jumpClock.getElapsedTime().asSeconds();
+                    velocity.y = -VELOCIDADE_PULO + GRAVIDADE*dtJump;
 
-                if(onGround) {
-                    jumping = false;
-                    jumpClock.restart();
+                    if(onGround) {
+                        jumping = false;
+                        jumpClock.restart();
+                    }
                 }
             }
 
             void Player::execute()
             {
                 update();
+                executeJump();
                 applyGravity();
                 design();
             }

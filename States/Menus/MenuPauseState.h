@@ -17,7 +17,7 @@ namespace States
             MenuPauseState();
             ~MenuPauseState();
 
-            void handleEvent(const sf::Event* event);
+            void mouseMenuInteractions();
             void draw();
             void execute();
         };

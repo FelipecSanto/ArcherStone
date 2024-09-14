@@ -1,9 +1,9 @@
 #pragma once
 #include <string>
 #include <iostream>
-#include <SFML/Graphics.hpp>
 #include "../Managers/GraphicsManager.h"
 #include "../Mapa/QuadTree.h"
+#include "../Managers/EventsManager.h"
 
 namespace Entitys 
 {
@@ -20,7 +20,9 @@ namespace Entitys
 
         float acceleration;
 
-        Managers::GraphicsManager* graphicsManager;
+        Managers::GraphicsManager* graphicsMgr;
+        Managers::EventsManager* eventsMgr;
+        
         Maps::QuadTree* quadtree;
 
         bool onGround;

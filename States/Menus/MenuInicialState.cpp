@@ -12,18 +12,18 @@ namespace States
         loadGame(nullptr),
         exit(nullptr)
         {
-            graphicsManager->loadTexture("../Assets/Backgrounds/MenuInicial.jpg", &texture);
+            graphicsMgr->loadTexture("../Assets/Backgrounds/MenuInicial.jpg", &texture);
 
             background.setTexture(&texture);
-            background.setSize(graphicsManager->getWindowSize());
+            background.setSize(graphicsMgr->getWindowSize());
             background.setPosition(0, 0);
 
-            graphicsManager->loadFont("../Fontes/Font.ttf", &font);
+            graphicsMgr->loadFont("../Fontes/Font.ttf", &font);
 
             title.setFont(font);
             title.setString("Archer Stone");
             title.setCharacterSize(50);
-            title.setPosition(graphicsManager->getWindow()->getSize().x / 2 - title.getGlobalBounds().width / 2, 50);
+            title.setPosition(graphicsMgr->getWindow()->getSize().x / 2 - title.getGlobalBounds().width / 2, 50);
 
             title.setFillColor(sf::Color::White);
             title.setOutlineColor(sf::Color::Black);
@@ -31,13 +31,13 @@ namespace States
             
             //Button(float x, float y, float width, float height, int characterSize, const sf::Font font, const std::string textStr);
 
-            newGame = new GraphicsElements::Button(graphicsManager->getWindow()->getSize().x / 2 - 100, 300, 150, 50, 10, "New Game");
-            continueGame = new GraphicsElements::Button(graphicsManager->getWindow()->getSize().x / 2 - 100, 375, 150, 50, 10, "Continue");
-            loadGame = new GraphicsElements::Button(graphicsManager->getWindow()->getSize().x / 2 - 100, 450, 150, 50, 10, "Load Game");
-            tutorial = new GraphicsElements::Button(graphicsManager->getWindow()->getSize().x / 2 - 100, 525, 150, 50, 10, "Tutorial");
-            ranking = new GraphicsElements::Button(graphicsManager->getWindow()->getSize().x / 2 - 100, 600, 150, 50, 10, "Ranking");
-            options = new GraphicsElements::Button(graphicsManager->getWindow()->getSize().x / 2 - 100, 675, 150, 50, 10, "Options");
-            exit = new GraphicsElements::Button(graphicsManager->getWindow()->getSize().x / 2 - 100, 750, 150, 50, 10, "Exit");
+            newGame = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, 300, 150, 50, 10, "New Game");
+            continueGame = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, 375, 150, 50, 10, "Continue");
+            loadGame = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, 450, 150, 50, 10, "Load Game");
+            tutorial = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, 525, 150, 50, 10, "Tutorial");
+            ranking = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, 600, 150, 50, 10, "Ranking");
+            options = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, 675, 150, 50, 10, "Options");
+            exit = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, 750, 150, 50, 10, "Exit");
         }
         MenuInicialState::~MenuInicialState()
         {
@@ -57,15 +57,8 @@ namespace States
             exit = nullptr;
         }
 
-        void MenuInicialState::handleEvent(const sf::Event* event)
+        void MenuInicialState::mouseMenuInteractions()
         {
-            if (event->type == sf::Event::KeyPressed && event->key.code == sf::Keyboard::Escape) { 
-                graphicsManager->getWindow()->close(); 
-            }
-
-            // Button hover events //////////////////////////////////////////////////////////
-
-
             // Play button
             if(newGame->isMouseOver())
             {
@@ -143,14 +136,14 @@ namespace States
             // Play the game
             if(newGame->isClicked())
             {
-                stateManager->removeState("GameState");
-                stateManager->changeState("GameState");
+                stateMgr->removeState("FaseState");
+                stateMgr->changeState("FaseState");
             }
 
             // Continue the game
             if(continueGame->isClicked())
             {
-                stateManager->changeState("GameState");
+                stateMgr->changeState("FaseState");
             }
 
             // Load the game
@@ -168,28 +161,28 @@ namespace States
             // Show the ranking
             if(ranking->isClicked())
             {
-                stateManager->changeState("MenuRankingState");
+                stateMgr->changeState("MenuRankingState");
             }
 
             // Show the options
             if(options->isClicked())
             {
-                stateManager->changeState("MenuOptionsState");
+                stateMgr->changeState("MenuOptionsState");
             }
 
             // Exit the game
             if(exit->isClicked())
             {
-                graphicsManager->getWindow()->close();
+                graphicsMgr->getWindow()->close();
             }
         }
 
         void MenuInicialState::draw()
         {
-            graphicsManager->setViewCenter(sf::Vector2f(graphicsManager->getWindow()->getSize().x / 2, graphicsManager->getWindow()->getSize().y / 2));
+            graphicsMgr->setViewCenter(sf::Vector2f(graphicsMgr->getWindow()->getSize().x / 2, graphicsMgr->getWindow()->getSize().y / 2));
 
-            graphicsManager->draw(background);
-            graphicsManager->draw(title);
+            graphicsMgr->draw(background);
+            graphicsMgr->draw(title);
 
             newGame->render();
             continueGame->render();
@@ -202,6 +195,7 @@ namespace States
 
         void MenuInicialState::execute()
         {
+            mouseMenuInteractions();
             draw();
         }
     }

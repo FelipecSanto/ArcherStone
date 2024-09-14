@@ -231,5 +231,13 @@ CMakeFiles/main.dir/States/Fases/GameState.cpp.obj: \
  c:\users\felpi\documents\peteco\projectsimas\mapa\quadtree.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\unordered_set \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_set.h \
- c:\users\felpi\documents\peteco\projectsimas\entitys\platform.h \
- c:\users\felpi\documents\peteco\projectsimas\managers\statemanager.h
+ c:\users\felpi\documents\peteco\projectsimas\managers\eventsmanager.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\queue \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\deque \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_deque.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\deque.tcc \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_queue.h \
+ c:\users\felpi\documents\peteco\projectsimas\observers\observer.h \
+ c:\users\felpi\documents\peteco\projectsimas\managers\statemanager.h \
+ c:\users\felpi\documents\peteco\projectsimas\observers\playerobserver.h \
+ c:\users\felpi\documents\peteco\projectsimas\entitys\platform.h

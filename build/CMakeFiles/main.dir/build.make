@@ -83,11 +83,26 @@ CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\felpi\Documents\PETECO\ProjectSimas\main.cpp -o CMakeFiles\main.dir\main.cpp.s
 
+CMakeFiles/main.dir/Game.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/Game.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/Game.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/Game.cpp
+CMakeFiles/main.dir/Game.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/Game.cpp.obj"
+	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Game.cpp.obj -MF CMakeFiles\main.dir\Game.cpp.obj.d -o CMakeFiles\main.dir\Game.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\Game.cpp
+
+CMakeFiles/main.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Game.cpp.i"
+	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\felpi\Documents\PETECO\ProjectSimas\Game.cpp > CMakeFiles\main.dir\Game.cpp.i
+
+CMakeFiles/main.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Game.cpp.s"
+	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\felpi\Documents\PETECO\ProjectSimas\Game.cpp -o CMakeFiles\main.dir\Game.cpp.s
+
 CMakeFiles/main.dir/Managers/StateManager.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Managers/StateManager.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/Managers/StateManager.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.cpp
 CMakeFiles/main.dir/Managers/StateManager.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/Managers/StateManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/Managers/StateManager.cpp.obj"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Managers/StateManager.cpp.obj -MF CMakeFiles\main.dir\Managers\StateManager.cpp.obj.d -o CMakeFiles\main.dir\Managers\StateManager.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\Managers\StateManager.cpp
 
 CMakeFiles/main.dir/Managers/StateManager.cpp.i: cmake_force
@@ -102,7 +117,7 @@ CMakeFiles/main.dir/Managers/GraphicsManager.cpp.obj: CMakeFiles/main.dir/flags.
 CMakeFiles/main.dir/Managers/GraphicsManager.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/Managers/GraphicsManager.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.cpp
 CMakeFiles/main.dir/Managers/GraphicsManager.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/Managers/GraphicsManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/Managers/GraphicsManager.cpp.obj"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Managers/GraphicsManager.cpp.obj -MF CMakeFiles\main.dir\Managers\GraphicsManager.cpp.obj.d -o CMakeFiles\main.dir\Managers\GraphicsManager.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\Managers\GraphicsManager.cpp
 
 CMakeFiles/main.dir/Managers/GraphicsManager.cpp.i: cmake_force
@@ -117,7 +132,7 @@ CMakeFiles/main.dir/Managers/CollisionManager.cpp.obj: CMakeFiles/main.dir/flags
 CMakeFiles/main.dir/Managers/CollisionManager.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/Managers/CollisionManager.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/CollisionManager.cpp
 CMakeFiles/main.dir/Managers/CollisionManager.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/Managers/CollisionManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/Managers/CollisionManager.cpp.obj"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Managers/CollisionManager.cpp.obj -MF CMakeFiles\main.dir\Managers\CollisionManager.cpp.obj.d -o CMakeFiles\main.dir\Managers\CollisionManager.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\Managers\CollisionManager.cpp
 
 CMakeFiles/main.dir/Managers/CollisionManager.cpp.i: cmake_force
@@ -128,11 +143,26 @@ CMakeFiles/main.dir/Managers/CollisionManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Managers/CollisionManager.cpp.s"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\felpi\Documents\PETECO\ProjectSimas\Managers\CollisionManager.cpp -o CMakeFiles\main.dir\Managers\CollisionManager.cpp.s
 
+CMakeFiles/main.dir/Managers/EventsManager.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/Managers/EventsManager.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/Managers/EventsManager.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.cpp
+CMakeFiles/main.dir/Managers/EventsManager.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/Managers/EventsManager.cpp.obj"
+	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Managers/EventsManager.cpp.obj -MF CMakeFiles\main.dir\Managers\EventsManager.cpp.obj.d -o CMakeFiles\main.dir\Managers\EventsManager.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\Managers\EventsManager.cpp
+
+CMakeFiles/main.dir/Managers/EventsManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Managers/EventsManager.cpp.i"
+	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\felpi\Documents\PETECO\ProjectSimas\Managers\EventsManager.cpp > CMakeFiles\main.dir\Managers\EventsManager.cpp.i
+
+CMakeFiles/main.dir/Managers/EventsManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Managers/EventsManager.cpp.s"
+	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\felpi\Documents\PETECO\ProjectSimas\Managers\EventsManager.cpp -o CMakeFiles\main.dir\Managers\EventsManager.cpp.s
+
 CMakeFiles/main.dir/GraphicsElements/Button.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/GraphicsElements/Button.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/GraphicsElements/Button.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/GraphicsElements/Button.cpp
 CMakeFiles/main.dir/GraphicsElements/Button.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/GraphicsElements/Button.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/GraphicsElements/Button.cpp.obj"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/GraphicsElements/Button.cpp.obj -MF CMakeFiles\main.dir\GraphicsElements\Button.cpp.obj.d -o CMakeFiles\main.dir\GraphicsElements\Button.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\GraphicsElements\Button.cpp
 
 CMakeFiles/main.dir/GraphicsElements/Button.cpp.i: cmake_force
@@ -143,11 +173,71 @@ CMakeFiles/main.dir/GraphicsElements/Button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/GraphicsElements/Button.cpp.s"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\felpi\Documents\PETECO\ProjectSimas\GraphicsElements\Button.cpp -o CMakeFiles\main.dir\GraphicsElements\Button.cpp.s
 
+CMakeFiles/main.dir/Observers/Observer.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/Observers/Observer.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/Observers/Observer.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.cpp
+CMakeFiles/main.dir/Observers/Observer.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/Observers/Observer.cpp.obj"
+	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Observers/Observer.cpp.obj -MF CMakeFiles\main.dir\Observers\Observer.cpp.obj.d -o CMakeFiles\main.dir\Observers\Observer.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\Observers\Observer.cpp
+
+CMakeFiles/main.dir/Observers/Observer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Observers/Observer.cpp.i"
+	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\felpi\Documents\PETECO\ProjectSimas\Observers\Observer.cpp > CMakeFiles\main.dir\Observers\Observer.cpp.i
+
+CMakeFiles/main.dir/Observers/Observer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Observers/Observer.cpp.s"
+	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\felpi\Documents\PETECO\ProjectSimas\Observers\Observer.cpp -o CMakeFiles\main.dir\Observers\Observer.cpp.s
+
+CMakeFiles/main.dir/Observers/PlayerObserver.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/Observers/PlayerObserver.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/Observers/PlayerObserver.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/PlayerObserver.cpp
+CMakeFiles/main.dir/Observers/PlayerObserver.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/Observers/PlayerObserver.cpp.obj"
+	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Observers/PlayerObserver.cpp.obj -MF CMakeFiles\main.dir\Observers\PlayerObserver.cpp.obj.d -o CMakeFiles\main.dir\Observers\PlayerObserver.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\Observers\PlayerObserver.cpp
+
+CMakeFiles/main.dir/Observers/PlayerObserver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Observers/PlayerObserver.cpp.i"
+	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\felpi\Documents\PETECO\ProjectSimas\Observers\PlayerObserver.cpp > CMakeFiles\main.dir\Observers\PlayerObserver.cpp.i
+
+CMakeFiles/main.dir/Observers/PlayerObserver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Observers/PlayerObserver.cpp.s"
+	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\felpi\Documents\PETECO\ProjectSimas\Observers\PlayerObserver.cpp -o CMakeFiles\main.dir\Observers\PlayerObserver.cpp.s
+
+CMakeFiles/main.dir/Observers/FaseStateObserver.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/Observers/FaseStateObserver.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/Observers/FaseStateObserver.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/FaseStateObserver.cpp
+CMakeFiles/main.dir/Observers/FaseStateObserver.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/Observers/FaseStateObserver.cpp.obj"
+	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Observers/FaseStateObserver.cpp.obj -MF CMakeFiles\main.dir\Observers\FaseStateObserver.cpp.obj.d -o CMakeFiles\main.dir\Observers\FaseStateObserver.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\Observers\FaseStateObserver.cpp
+
+CMakeFiles/main.dir/Observers/FaseStateObserver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Observers/FaseStateObserver.cpp.i"
+	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\felpi\Documents\PETECO\ProjectSimas\Observers\FaseStateObserver.cpp > CMakeFiles\main.dir\Observers\FaseStateObserver.cpp.i
+
+CMakeFiles/main.dir/Observers/FaseStateObserver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Observers/FaseStateObserver.cpp.s"
+	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\felpi\Documents\PETECO\ProjectSimas\Observers\FaseStateObserver.cpp -o CMakeFiles\main.dir\Observers\FaseStateObserver.cpp.s
+
+CMakeFiles/main.dir/Observers/MenusObserver.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/Observers/MenusObserver.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/Observers/MenusObserver.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/MenusObserver.cpp
+CMakeFiles/main.dir/Observers/MenusObserver.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/Observers/MenusObserver.cpp.obj"
+	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Observers/MenusObserver.cpp.obj -MF CMakeFiles\main.dir\Observers\MenusObserver.cpp.obj.d -o CMakeFiles\main.dir\Observers\MenusObserver.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\Observers\MenusObserver.cpp
+
+CMakeFiles/main.dir/Observers/MenusObserver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Observers/MenusObserver.cpp.i"
+	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\felpi\Documents\PETECO\ProjectSimas\Observers\MenusObserver.cpp > CMakeFiles\main.dir\Observers\MenusObserver.cpp.i
+
+CMakeFiles/main.dir/Observers/MenusObserver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Observers/MenusObserver.cpp.s"
+	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\felpi\Documents\PETECO\ProjectSimas\Observers\MenusObserver.cpp -o CMakeFiles\main.dir\Observers\MenusObserver.cpp.s
+
 CMakeFiles/main.dir/States/State.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/States/State.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/States/State.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.cpp
 CMakeFiles/main.dir/States/State.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/States/State.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/States/State.cpp.obj"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/States/State.cpp.obj -MF CMakeFiles\main.dir\States\State.cpp.obj.d -o CMakeFiles\main.dir\States\State.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\States\State.cpp
 
 CMakeFiles/main.dir/States/State.cpp.i: cmake_force
@@ -158,26 +248,11 @@ CMakeFiles/main.dir/States/State.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/States/State.cpp.s"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\felpi\Documents\PETECO\ProjectSimas\States\State.cpp -o CMakeFiles\main.dir\States\State.cpp.s
 
-CMakeFiles/main.dir/States/Fases/GameState.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/States/Fases/GameState.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/States/Fases/GameState.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/States/Fases/GameState.cpp
-CMakeFiles/main.dir/States/Fases/GameState.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/States/Fases/GameState.cpp.obj"
-	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/States/Fases/GameState.cpp.obj -MF CMakeFiles\main.dir\States\Fases\GameState.cpp.obj.d -o CMakeFiles\main.dir\States\Fases\GameState.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\States\Fases\GameState.cpp
-
-CMakeFiles/main.dir/States/Fases/GameState.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/States/Fases/GameState.cpp.i"
-	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\felpi\Documents\PETECO\ProjectSimas\States\Fases\GameState.cpp > CMakeFiles\main.dir\States\Fases\GameState.cpp.i
-
-CMakeFiles/main.dir/States/Fases/GameState.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/States/Fases/GameState.cpp.s"
-	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\felpi\Documents\PETECO\ProjectSimas\States\Fases\GameState.cpp -o CMakeFiles\main.dir\States\Fases\GameState.cpp.s
-
 CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/States/Fases/FaseState.cpp
 CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj -MF CMakeFiles\main.dir\States\Fases\FaseState.cpp.obj.d -o CMakeFiles\main.dir\States\Fases\FaseState.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\States\Fases\FaseState.cpp
 
 CMakeFiles/main.dir/States/Fases/FaseState.cpp.i: cmake_force
@@ -192,7 +267,7 @@ CMakeFiles/main.dir/States/Menus/MenuInicialState.cpp.obj: CMakeFiles/main.dir/f
 CMakeFiles/main.dir/States/Menus/MenuInicialState.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/States/Menus/MenuInicialState.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/States/Menus/MenuInicialState.cpp
 CMakeFiles/main.dir/States/Menus/MenuInicialState.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/States/Menus/MenuInicialState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/States/Menus/MenuInicialState.cpp.obj"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/States/Menus/MenuInicialState.cpp.obj -MF CMakeFiles\main.dir\States\Menus\MenuInicialState.cpp.obj.d -o CMakeFiles\main.dir\States\Menus\MenuInicialState.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\States\Menus\MenuInicialState.cpp
 
 CMakeFiles/main.dir/States/Menus/MenuInicialState.cpp.i: cmake_force
@@ -207,7 +282,7 @@ CMakeFiles/main.dir/States/Menus/MenuPauseState.cpp.obj: CMakeFiles/main.dir/fla
 CMakeFiles/main.dir/States/Menus/MenuPauseState.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/States/Menus/MenuPauseState.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/States/Menus/MenuPauseState.cpp
 CMakeFiles/main.dir/States/Menus/MenuPauseState.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/States/Menus/MenuPauseState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/States/Menus/MenuPauseState.cpp.obj"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/States/Menus/MenuPauseState.cpp.obj -MF CMakeFiles\main.dir\States\Menus\MenuPauseState.cpp.obj.d -o CMakeFiles\main.dir\States\Menus\MenuPauseState.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\States\Menus\MenuPauseState.cpp
 
 CMakeFiles/main.dir/States/Menus/MenuPauseState.cpp.i: cmake_force
@@ -222,7 +297,7 @@ CMakeFiles/main.dir/States/Menus/MenuOptionsState.cpp.obj: CMakeFiles/main.dir/f
 CMakeFiles/main.dir/States/Menus/MenuOptionsState.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/States/Menus/MenuOptionsState.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/States/Menus/MenuOptionsState.cpp
 CMakeFiles/main.dir/States/Menus/MenuOptionsState.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/States/Menus/MenuOptionsState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/States/Menus/MenuOptionsState.cpp.obj"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/States/Menus/MenuOptionsState.cpp.obj -MF CMakeFiles\main.dir\States\Menus\MenuOptionsState.cpp.obj.d -o CMakeFiles\main.dir\States\Menus\MenuOptionsState.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\States\Menus\MenuOptionsState.cpp
 
 CMakeFiles/main.dir/States/Menus/MenuOptionsState.cpp.i: cmake_force
@@ -237,7 +312,7 @@ CMakeFiles/main.dir/States/Menus/MenuRankingState.cpp.obj: CMakeFiles/main.dir/f
 CMakeFiles/main.dir/States/Menus/MenuRankingState.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/States/Menus/MenuRankingState.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/States/Menus/MenuRankingState.cpp
 CMakeFiles/main.dir/States/Menus/MenuRankingState.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/States/Menus/MenuRankingState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.dir/States/Menus/MenuRankingState.cpp.obj"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/States/Menus/MenuRankingState.cpp.obj -MF CMakeFiles\main.dir\States\Menus\MenuRankingState.cpp.obj.d -o CMakeFiles\main.dir\States\Menus\MenuRankingState.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\States\Menus\MenuRankingState.cpp
 
 CMakeFiles/main.dir/States/Menus/MenuRankingState.cpp.i: cmake_force
@@ -252,7 +327,7 @@ CMakeFiles/main.dir/States/Menus/MenuState.cpp.obj: CMakeFiles/main.dir/flags.ma
 CMakeFiles/main.dir/States/Menus/MenuState.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/States/Menus/MenuState.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/States/Menus/MenuState.cpp
 CMakeFiles/main.dir/States/Menus/MenuState.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/States/Menus/MenuState.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/main.dir/States/Menus/MenuState.cpp.obj"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/States/Menus/MenuState.cpp.obj -MF CMakeFiles\main.dir\States\Menus\MenuState.cpp.obj.d -o CMakeFiles\main.dir\States\Menus\MenuState.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\States\Menus\MenuState.cpp
 
 CMakeFiles/main.dir/States/Menus/MenuState.cpp.i: cmake_force
@@ -267,7 +342,7 @@ CMakeFiles/main.dir/Entitys/Entity.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Entitys/Entity.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/Entitys/Entity.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Entity.cpp
 CMakeFiles/main.dir/Entitys/Entity.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/Entitys/Entity.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/main.dir/Entitys/Entity.cpp.obj"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Entitys/Entity.cpp.obj -MF CMakeFiles\main.dir\Entitys\Entity.cpp.obj.d -o CMakeFiles\main.dir\Entitys\Entity.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\Entitys\Entity.cpp
 
 CMakeFiles/main.dir/Entitys/Entity.cpp.i: cmake_force
@@ -282,7 +357,7 @@ CMakeFiles/main.dir/Entitys/Platform.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Entitys/Platform.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/Entitys/Platform.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Platform.cpp
 CMakeFiles/main.dir/Entitys/Platform.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/Entitys/Platform.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/main.dir/Entitys/Platform.cpp.obj"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Entitys/Platform.cpp.obj -MF CMakeFiles\main.dir\Entitys\Platform.cpp.obj.d -o CMakeFiles\main.dir\Entitys\Platform.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\Entitys\Platform.cpp
 
 CMakeFiles/main.dir/Entitys/Platform.cpp.i: cmake_force
@@ -297,7 +372,7 @@ CMakeFiles/main.dir/Entitys/Characters/Character.cpp.obj: CMakeFiles/main.dir/fl
 CMakeFiles/main.dir/Entitys/Characters/Character.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/Entitys/Characters/Character.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Characters/Character.cpp
 CMakeFiles/main.dir/Entitys/Characters/Character.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/Entitys/Characters/Character.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/main.dir/Entitys/Characters/Character.cpp.obj"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Entitys/Characters/Character.cpp.obj -MF CMakeFiles\main.dir\Entitys\Characters\Character.cpp.obj.d -o CMakeFiles\main.dir\Entitys\Characters\Character.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\Entitys\Characters\Character.cpp
 
 CMakeFiles/main.dir/Entitys/Characters/Character.cpp.i: cmake_force
@@ -312,7 +387,7 @@ CMakeFiles/main.dir/Entitys/Characters/Player.cpp.obj: CMakeFiles/main.dir/flags
 CMakeFiles/main.dir/Entitys/Characters/Player.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/Entitys/Characters/Player.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Characters/Player.cpp
 CMakeFiles/main.dir/Entitys/Characters/Player.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.dir/Entitys/Characters/Player.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/main.dir/Entitys/Characters/Player.cpp.obj"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Entitys/Characters/Player.cpp.obj -MF CMakeFiles\main.dir\Entitys\Characters\Player.cpp.obj.d -o CMakeFiles\main.dir\Entitys\Characters\Player.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\Entitys\Characters\Player.cpp
 
 CMakeFiles/main.dir/Entitys/Characters/Player.cpp.i: cmake_force
@@ -327,7 +402,7 @@ CMakeFiles/main.dir/Mapa/QuadTree.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Mapa/QuadTree.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/Mapa/QuadTree.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/Mapa/QuadTree.cpp
 CMakeFiles/main.dir/Mapa/QuadTree.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/main.dir/Mapa/QuadTree.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/main.dir/Mapa/QuadTree.cpp.obj"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Mapa/QuadTree.cpp.obj -MF CMakeFiles\main.dir\Mapa\QuadTree.cpp.obj.d -o CMakeFiles\main.dir\Mapa\QuadTree.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\Mapa\QuadTree.cpp
 
 CMakeFiles/main.dir/Mapa/QuadTree.cpp.i: cmake_force
@@ -342,7 +417,7 @@ CMakeFiles/main.dir/Mapa/tilemap.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Mapa/tilemap.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/Mapa/tilemap.cpp.obj: C:/Users/felpi/Documents/PETECO/ProjectSimas/Mapa/tilemap.cpp
 CMakeFiles/main.dir/Mapa/tilemap.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/main.dir/Mapa/tilemap.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/main.dir/Mapa/tilemap.cpp.obj"
 	C:\VScode\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Mapa/tilemap.cpp.obj -MF CMakeFiles\main.dir\Mapa\tilemap.cpp.obj.d -o CMakeFiles\main.dir\Mapa\tilemap.cpp.obj -c C:\Users\felpi\Documents\PETECO\ProjectSimas\Mapa\tilemap.cpp
 
 CMakeFiles/main.dir/Mapa/tilemap.cpp.i: cmake_force
@@ -356,12 +431,17 @@ CMakeFiles/main.dir/Mapa/tilemap.cpp.s: cmake_force
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.obj" \
+"CMakeFiles/main.dir/Game.cpp.obj" \
 "CMakeFiles/main.dir/Managers/StateManager.cpp.obj" \
 "CMakeFiles/main.dir/Managers/GraphicsManager.cpp.obj" \
 "CMakeFiles/main.dir/Managers/CollisionManager.cpp.obj" \
+"CMakeFiles/main.dir/Managers/EventsManager.cpp.obj" \
 "CMakeFiles/main.dir/GraphicsElements/Button.cpp.obj" \
+"CMakeFiles/main.dir/Observers/Observer.cpp.obj" \
+"CMakeFiles/main.dir/Observers/PlayerObserver.cpp.obj" \
+"CMakeFiles/main.dir/Observers/FaseStateObserver.cpp.obj" \
+"CMakeFiles/main.dir/Observers/MenusObserver.cpp.obj" \
 "CMakeFiles/main.dir/States/State.cpp.obj" \
-"CMakeFiles/main.dir/States/Fases/GameState.cpp.obj" \
 "CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj" \
 "CMakeFiles/main.dir/States/Menus/MenuInicialState.cpp.obj" \
 "CMakeFiles/main.dir/States/Menus/MenuPauseState.cpp.obj" \
@@ -379,12 +459,17 @@ main_OBJECTS = \
 main_EXTERNAL_OBJECTS =
 
 main.exe: CMakeFiles/main.dir/main.cpp.obj
+main.exe: CMakeFiles/main.dir/Game.cpp.obj
 main.exe: CMakeFiles/main.dir/Managers/StateManager.cpp.obj
 main.exe: CMakeFiles/main.dir/Managers/GraphicsManager.cpp.obj
 main.exe: CMakeFiles/main.dir/Managers/CollisionManager.cpp.obj
+main.exe: CMakeFiles/main.dir/Managers/EventsManager.cpp.obj
 main.exe: CMakeFiles/main.dir/GraphicsElements/Button.cpp.obj
+main.exe: CMakeFiles/main.dir/Observers/Observer.cpp.obj
+main.exe: CMakeFiles/main.dir/Observers/PlayerObserver.cpp.obj
+main.exe: CMakeFiles/main.dir/Observers/FaseStateObserver.cpp.obj
+main.exe: CMakeFiles/main.dir/Observers/MenusObserver.cpp.obj
 main.exe: CMakeFiles/main.dir/States/State.cpp.obj
-main.exe: CMakeFiles/main.dir/States/Fases/GameState.cpp.obj
 main.exe: CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj
 main.exe: CMakeFiles/main.dir/States/Menus/MenuInicialState.cpp.obj
 main.exe: CMakeFiles/main.dir/States/Menus/MenuPauseState.cpp.obj
@@ -404,7 +489,7 @@ main.exe: _deps/sfml-build/lib/libsfml-system.a
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\felpi\Documents\PETECO\ProjectSimas\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

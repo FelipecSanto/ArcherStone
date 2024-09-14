@@ -367,6 +367,30 @@ Entitys/Platform.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Entitys/Platform.cpp.s
 .PHONY : Entitys/Platform.cpp.s
 
+Game.obj: Game.cpp.obj
+.PHONY : Game.obj
+
+# target to build an object file
+Game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Game.cpp.obj
+.PHONY : Game.cpp.obj
+
+Game.i: Game.cpp.i
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
 GraphicsElements/Button.obj: GraphicsElements/Button.cpp.obj
 .PHONY : GraphicsElements/Button.obj
 
@@ -414,6 +438,30 @@ Managers/CollisionManager.s: Managers/CollisionManager.cpp.s
 Managers/CollisionManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Managers/CollisionManager.cpp.s
 .PHONY : Managers/CollisionManager.cpp.s
+
+Managers/EventsManager.obj: Managers/EventsManager.cpp.obj
+.PHONY : Managers/EventsManager.obj
+
+# target to build an object file
+Managers/EventsManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Managers/EventsManager.cpp.obj
+.PHONY : Managers/EventsManager.cpp.obj
+
+Managers/EventsManager.i: Managers/EventsManager.cpp.i
+.PHONY : Managers/EventsManager.i
+
+# target to preprocess a source file
+Managers/EventsManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Managers/EventsManager.cpp.i
+.PHONY : Managers/EventsManager.cpp.i
+
+Managers/EventsManager.s: Managers/EventsManager.cpp.s
+.PHONY : Managers/EventsManager.s
+
+# target to generate assembly for a file
+Managers/EventsManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Managers/EventsManager.cpp.s
+.PHONY : Managers/EventsManager.cpp.s
 
 Managers/GraphicsManager.obj: Managers/GraphicsManager.cpp.obj
 .PHONY : Managers/GraphicsManager.obj
@@ -511,6 +559,102 @@ Mapa/tilemap.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Mapa/tilemap.cpp.s
 .PHONY : Mapa/tilemap.cpp.s
 
+Observers/FaseStateObserver.obj: Observers/FaseStateObserver.cpp.obj
+.PHONY : Observers/FaseStateObserver.obj
+
+# target to build an object file
+Observers/FaseStateObserver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Observers/FaseStateObserver.cpp.obj
+.PHONY : Observers/FaseStateObserver.cpp.obj
+
+Observers/FaseStateObserver.i: Observers/FaseStateObserver.cpp.i
+.PHONY : Observers/FaseStateObserver.i
+
+# target to preprocess a source file
+Observers/FaseStateObserver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Observers/FaseStateObserver.cpp.i
+.PHONY : Observers/FaseStateObserver.cpp.i
+
+Observers/FaseStateObserver.s: Observers/FaseStateObserver.cpp.s
+.PHONY : Observers/FaseStateObserver.s
+
+# target to generate assembly for a file
+Observers/FaseStateObserver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Observers/FaseStateObserver.cpp.s
+.PHONY : Observers/FaseStateObserver.cpp.s
+
+Observers/MenusObserver.obj: Observers/MenusObserver.cpp.obj
+.PHONY : Observers/MenusObserver.obj
+
+# target to build an object file
+Observers/MenusObserver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Observers/MenusObserver.cpp.obj
+.PHONY : Observers/MenusObserver.cpp.obj
+
+Observers/MenusObserver.i: Observers/MenusObserver.cpp.i
+.PHONY : Observers/MenusObserver.i
+
+# target to preprocess a source file
+Observers/MenusObserver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Observers/MenusObserver.cpp.i
+.PHONY : Observers/MenusObserver.cpp.i
+
+Observers/MenusObserver.s: Observers/MenusObserver.cpp.s
+.PHONY : Observers/MenusObserver.s
+
+# target to generate assembly for a file
+Observers/MenusObserver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Observers/MenusObserver.cpp.s
+.PHONY : Observers/MenusObserver.cpp.s
+
+Observers/Observer.obj: Observers/Observer.cpp.obj
+.PHONY : Observers/Observer.obj
+
+# target to build an object file
+Observers/Observer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Observers/Observer.cpp.obj
+.PHONY : Observers/Observer.cpp.obj
+
+Observers/Observer.i: Observers/Observer.cpp.i
+.PHONY : Observers/Observer.i
+
+# target to preprocess a source file
+Observers/Observer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Observers/Observer.cpp.i
+.PHONY : Observers/Observer.cpp.i
+
+Observers/Observer.s: Observers/Observer.cpp.s
+.PHONY : Observers/Observer.s
+
+# target to generate assembly for a file
+Observers/Observer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Observers/Observer.cpp.s
+.PHONY : Observers/Observer.cpp.s
+
+Observers/PlayerObserver.obj: Observers/PlayerObserver.cpp.obj
+.PHONY : Observers/PlayerObserver.obj
+
+# target to build an object file
+Observers/PlayerObserver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Observers/PlayerObserver.cpp.obj
+.PHONY : Observers/PlayerObserver.cpp.obj
+
+Observers/PlayerObserver.i: Observers/PlayerObserver.cpp.i
+.PHONY : Observers/PlayerObserver.i
+
+# target to preprocess a source file
+Observers/PlayerObserver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Observers/PlayerObserver.cpp.i
+.PHONY : Observers/PlayerObserver.cpp.i
+
+Observers/PlayerObserver.s: Observers/PlayerObserver.cpp.s
+.PHONY : Observers/PlayerObserver.s
+
+# target to generate assembly for a file
+Observers/PlayerObserver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Observers/PlayerObserver.cpp.s
+.PHONY : Observers/PlayerObserver.cpp.s
+
 States/Fases/FaseState.obj: States/Fases/FaseState.cpp.obj
 .PHONY : States/Fases/FaseState.obj
 
@@ -534,30 +678,6 @@ States/Fases/FaseState.s: States/Fases/FaseState.cpp.s
 States/Fases/FaseState.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/States/Fases/FaseState.cpp.s
 .PHONY : States/Fases/FaseState.cpp.s
-
-States/Fases/GameState.obj: States/Fases/GameState.cpp.obj
-.PHONY : States/Fases/GameState.obj
-
-# target to build an object file
-States/Fases/GameState.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/States/Fases/GameState.cpp.obj
-.PHONY : States/Fases/GameState.cpp.obj
-
-States/Fases/GameState.i: States/Fases/GameState.cpp.i
-.PHONY : States/Fases/GameState.i
-
-# target to preprocess a source file
-States/Fases/GameState.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/States/Fases/GameState.cpp.i
-.PHONY : States/Fases/GameState.cpp.i
-
-States/Fases/GameState.s: States/Fases/GameState.cpp.s
-.PHONY : States/Fases/GameState.s
-
-# target to generate assembly for a file
-States/Fases/GameState.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/States/Fases/GameState.cpp.s
-.PHONY : States/Fases/GameState.cpp.s
 
 States/Menus/MenuInicialState.obj: States/Menus/MenuInicialState.cpp.obj
 .PHONY : States/Menus/MenuInicialState.obj
@@ -760,12 +880,18 @@ help:
 	@echo ... Entitys/Platform.obj
 	@echo ... Entitys/Platform.i
 	@echo ... Entitys/Platform.s
+	@echo ... Game.obj
+	@echo ... Game.i
+	@echo ... Game.s
 	@echo ... GraphicsElements/Button.obj
 	@echo ... GraphicsElements/Button.i
 	@echo ... GraphicsElements/Button.s
 	@echo ... Managers/CollisionManager.obj
 	@echo ... Managers/CollisionManager.i
 	@echo ... Managers/CollisionManager.s
+	@echo ... Managers/EventsManager.obj
+	@echo ... Managers/EventsManager.i
+	@echo ... Managers/EventsManager.s
 	@echo ... Managers/GraphicsManager.obj
 	@echo ... Managers/GraphicsManager.i
 	@echo ... Managers/GraphicsManager.s
@@ -778,12 +904,21 @@ help:
 	@echo ... Mapa/tilemap.obj
 	@echo ... Mapa/tilemap.i
 	@echo ... Mapa/tilemap.s
+	@echo ... Observers/FaseStateObserver.obj
+	@echo ... Observers/FaseStateObserver.i
+	@echo ... Observers/FaseStateObserver.s
+	@echo ... Observers/MenusObserver.obj
+	@echo ... Observers/MenusObserver.i
+	@echo ... Observers/MenusObserver.s
+	@echo ... Observers/Observer.obj
+	@echo ... Observers/Observer.i
+	@echo ... Observers/Observer.s
+	@echo ... Observers/PlayerObserver.obj
+	@echo ... Observers/PlayerObserver.i
+	@echo ... Observers/PlayerObserver.s
 	@echo ... States/Fases/FaseState.obj
 	@echo ... States/Fases/FaseState.i
 	@echo ... States/Fases/FaseState.s
-	@echo ... States/Fases/GameState.obj
-	@echo ... States/Fases/GameState.i
-	@echo ... States/Fases/GameState.s
 	@echo ... States/Menus/MenuInicialState.obj
 	@echo ... States/Menus/MenuInicialState.i
 	@echo ... States/Menus/MenuInicialState.s

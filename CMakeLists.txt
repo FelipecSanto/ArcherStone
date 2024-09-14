@@ -21,18 +21,28 @@ set(CMAKE_MAKE_PROGRAM C:/VScode/bin/make.exe)
 # Adicione todos os arquivos .cpp e .h ao seu executável
 add_executable(${PROJECT_NAME} main.cpp)
 target_sources(${PROJECT_NAME} PRIVATE 
+    Game.h
+    Game.cpp
     Managers/StateManager.h
     Managers/StateManager.cpp
     Managers/GraphicsManager.h
     Managers/GraphicsManager.cpp
     Managers/CollisionManager.h
     Managers/CollisionManager.cpp
+    Managers/EventsManager.h
+    Managers/EventsManager.cpp
     GraphicsElements/Button.h
     GraphicsElements/Button.cpp
+    Observers/Observer.h
+    Observers/Observer.cpp
+    Observers/PlayerObserver.h
+    Observers/PlayerObserver.cpp
+    Observers/FaseStateObserver.h
+    Observers/FaseStateObserver.cpp
+    Observers/MenusObserver.h
+    Observers/MenusObserver.cpp
     States/State.h
     States/State.cpp
-    States/Fases/GameState.h
-    States/Fases/GameState.cpp
     States/Fases/FaseState.h
     States/Fases/FaseState.cpp
     States/Menus/MenuInicialState.h

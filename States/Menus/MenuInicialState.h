@@ -20,7 +20,7 @@ namespace States
             MenuInicialState();
             ~MenuInicialState();
 
-            void handleEvent(const sf::Event* event);
+            void mouseMenuInteractions();
             void draw();
             void execute();
         };

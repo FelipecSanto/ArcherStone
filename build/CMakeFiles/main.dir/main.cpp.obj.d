@@ -100,15 +100,8 @@ CMakeFiles/main.dir/main.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\istream \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\stack \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\deque \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_deque.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\deque.tcc \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_stack.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\uses_allocator.h \
- C:\Users\felpi\Documents\PETECO\ProjectSimas\Managers/StateManager.h \
+ C:\Users\felpi\Documents\PETECO\ProjectSimas\Game.h \
+ C:\Users\felpi\Documents\PETECO\ProjectSimas\Managers/EventsManager.h \
  C:\Users\felpi\Documents\PETECO\ProjectSimas\Managers/GraphicsManager.h \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Window.hpp \
@@ -134,6 +127,7 @@ CMakeFiles/main.dir/main.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\algorithmfwd.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_heap.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_tempbuf.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\uniform_int_dist.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\limits \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\locale \
@@ -151,6 +145,7 @@ CMakeFiles/main.dir/main.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\unique_ptr.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\tuple \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\array \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\uses_allocator.h \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System/Utf.inl \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\iterator \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stream_iterator.h \
@@ -178,6 +173,7 @@ CMakeFiles/main.dir/main.cpp.obj: \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Window/Touch.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Window/VideoMode.hpp \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\vector \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_vector.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_bvector.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
@@ -222,7 +218,17 @@ CMakeFiles/main.dir/main.cpp.obj: \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/Sprite.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/Text.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\functional \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\typeinfo \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\queue \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\deque \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_deque.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\deque.tcc \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_queue.h \
+ c:\users\felpi\documents\peteco\projectsimas\observers\observer.h \
+ c:\users\felpi\documents\peteco\projectsimas\managers\statemanager.h \
  c:\users\felpi\documents\peteco\projectsimas\states\state.h \
  C:\Users\felpi\Documents\PETECO\ProjectSimas\States/Menus/MenuInicialState.h \
  C:\Users\felpi\Documents\PETECO\ProjectSimas\States/Menus/MenuState.h \
- c:\users\felpi\documents\peteco\projectsimas\graphicselements\button.h
+ c:\users\felpi\documents\peteco\projectsimas\graphicselements\button.h \
+ c:\users\felpi\documents\peteco\projectsimas\observers\menusobserver.h

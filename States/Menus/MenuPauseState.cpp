@@ -10,18 +10,18 @@ namespace States
         returnButton(nullptr),
         exit(nullptr)
         {
-            graphicsManager->loadTexture("../Assets/Backgrounds/MenuPause.jpg", &texture);
+            graphicsMgr->loadTexture("../Assets/Backgrounds/MenuPause.jpg", &texture);
 
             background.setTexture(&texture);
-            background.setSize(graphicsManager->getWindowSize());
+            background.setSize(graphicsMgr->getWindowSize());
             background.setPosition(0, 0);
 
-            graphicsManager->loadFont("../Fontes/Font.ttf", &font);
+            graphicsMgr->loadFont("../Fontes/Font.ttf", &font);
 
             title.setFont(font);
             title.setString("Pause Menu");
             title.setCharacterSize(50);
-            title.setPosition(graphicsManager->getWindow()->getSize().x / 2 - title.getGlobalBounds().width / 2, 50);
+            title.setPosition(graphicsMgr->getWindow()->getSize().x / 2 - title.getGlobalBounds().width / 2, 50);
 
             title.setFillColor(sf::Color::White);
             title.setOutlineColor(sf::Color::Black);
@@ -29,10 +29,10 @@ namespace States
 
             //Button(float x, float y, float width, float height, int characterSize, const sf::Font font, const std::string textStr);
 
-            returnButton = new GraphicsElements::Button(graphicsManager->getWindow()->getSize().x / 2 - 100, 200, 150, 50, 10, "Return");
-            save = new GraphicsElements::Button(graphicsManager->getWindow()->getSize().x / 2 - 100, 300, 150, 50, 10, "Save");
-            options = new GraphicsElements::Button(graphicsManager->getWindow()->getSize().x / 2 - 100, 400, 150, 50, 10, "Options");
-            exit = new GraphicsElements::Button(graphicsManager->getWindow()->getSize().x / 2 - 100, 500, 150, 50, 10, "Exit");
+            returnButton = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, 200, 150, 50, 10, "Return");
+            save = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, 300, 150, 50, 10, "Save");
+            options = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, 400, 150, 50, 10, "Options");
+            exit = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, 500, 150, 50, 10, "Exit");
         }
 
         MenuPauseState::~MenuPauseState()
@@ -47,7 +47,7 @@ namespace States
             exit = nullptr;
         }
 
-        void MenuPauseState::handleEvent(const sf::Event* event)
+        void MenuPauseState::mouseMenuInteractions()
         {
             // Resume button
             if(returnButton->isMouseOver())
@@ -92,7 +92,7 @@ namespace States
             // Resume the game
             if(returnButton->isClicked())
             {
-                stateManager->changeState("GameState");
+                stateMgr->changeState("FaseState");
             }
 
             // Save the game   
@@ -110,17 +110,17 @@ namespace States
             // Exit the game
             if(exit->isClicked())
             {
-                stateManager->changeState("MenuInicialState");
+                stateMgr->changeState("MenuInicialState");
             }
         }
 
         void MenuPauseState::draw()
         {
-            graphicsManager->setViewCenter(sf::Vector2f(graphicsManager->getWindow()->getSize().x / 2, graphicsManager->getWindow()->getSize().y / 2));
+            graphicsMgr->setViewCenter(sf::Vector2f(graphicsMgr->getWindow()->getSize().x / 2, graphicsMgr->getWindow()->getSize().y / 2));
 
 
-            graphicsManager->draw(background);
-            graphicsManager->draw(title);
+            graphicsMgr->draw(background);
+            graphicsMgr->draw(title);
 
             returnButton->render();
             save->render();
@@ -130,6 +130,7 @@ namespace States
 
         void MenuPauseState::execute()
         {
+            mouseMenuInteractions();
             draw();
         }
     }

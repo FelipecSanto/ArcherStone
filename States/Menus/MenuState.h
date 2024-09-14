@@ -1,7 +1,6 @@
 #pragma once
-#include "../State.h"
 #include "../../GraphicsElements/Button.h"
-#include "../../Managers/StateManager.h"
+#include "../../Observers/MenusObserver.h"
 
 namespace States
 {
@@ -15,13 +14,15 @@ namespace States
             sf::Texture texture;
             sf::Font font;
 
+            Observers::MenusObserver* observer;
+
         public:
             MenuState(std::string nam = "MenuState");
             ~MenuState();
 
-            void handleEvent(const sf::Event* event) = 0;
-            void draw() = 0;
-            void execute() = 0;
+            virtual void mouseMenuInteractions() = 0;
+            virtual void draw() = 0;
+            virtual void execute() = 0;
         };
     }
 }

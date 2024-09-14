@@ -12,8 +12,7 @@ namespace Managers
 
     StateManager::StateManager():
     statesMap(),
-    currentState(""),
-    graphicsManager(GraphicsManager::getInstance())
+    currentState("")
     {
     }
 
@@ -35,6 +34,11 @@ namespace Managers
             instance = new StateManager();
         }
         return instance;
+    }
+
+    const bool StateManager::hasState()
+    {
+        return statesMap.empty();
     }
 
     void StateManager::setCurrentState(const std::string stateName)
@@ -78,27 +82,7 @@ namespace Managers
     // Run the game loop
     void StateManager::run()
     {
-        while (graphicsManager->isOpen() && !statesMap.empty())
-        {
-            // Handle events
-            sf::Event event;
-            while (graphicsManager->getWindow()->pollEvent(event))
-            {
-                if (event.type == sf::Event::Closed)
-                    graphicsManager->CloseWindow();
-
-                statesMap[currentState]->handleEvent(&event);
-            }
-
-            // Clear the window
-            graphicsManager->clear();
-
-            // Execute the current state
-            statesMap[currentState]->execute();
-
-            // Display the window
-            graphicsManager->display();
-        }
+        statesMap[currentState]->execute();
     }
 
     void StateManager::changeState(std::string stateName)
@@ -116,7 +100,7 @@ namespace Managers
             {
                 addCurrentState(static_cast<States::State*>(new States::Menus::MenuInicialState()));
             }
-            else if(stateName == "GameState")
+            else if(stateName == "FaseState")
             {
                 addCurrentState(static_cast<States::State*>(new States::Fases::FaseState("../Mapa/tiled/Fase1_1.tmj")));
             }

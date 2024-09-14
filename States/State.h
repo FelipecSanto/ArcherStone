@@ -5,6 +5,7 @@
 namespace Managers {
     class StateManager;
     class GraphicsManager;
+    class EventsManager;
 }
 
 namespace States
@@ -12,8 +13,9 @@ namespace States
     class State
     {
     protected:
-        Managers::StateManager* stateManager;
-        Managers::GraphicsManager* graphicsManager;
+        Managers::StateManager* stateMgr;
+        Managers::GraphicsManager* graphicsMgr;
+        Managers::EventsManager* eventsMgr;
         std::string name;
 
     public:
@@ -23,7 +25,6 @@ namespace States
         void setName(const std::string na);
         std::string getName();
 
-        virtual void handleEvent(const sf::Event* event) = 0;
         virtual void draw() = 0;
         virtual void execute() = 0;
     };

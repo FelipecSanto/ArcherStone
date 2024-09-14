@@ -5,11 +5,16 @@ namespace States
     namespace Fases
     {
         FaseState::FaseState(std::string tilemapFaseState):
-        GameState("FaseState"),
+        State("FaseState"),
         quadtree(0, 0, 1920, 1080), 
         tilemap(&quadtree),
-        graphicsMan(Managers::GraphicsManager::getInstance())
+        graphicsMan(Managers::GraphicsManager::getInstance()),
+        corpo(),
+        fundo(),
+        collisionMan(Managers::CollisionManager::getInstance()),
+        observer(new Observers::FaseStateObserver(this))
         {
+            eventsMgr->addObserver(observer);
             tilemap.createMap(tilemapFaseState, &entitys, &map_texture);
             sprite_mapa.setTexture(map_texture);
 
@@ -20,15 +25,16 @@ namespace States
 
             collisionMan->setQuadTree(&quadtree);
 
-            graphicsManager->loadTexture("../Assets/Backgrounds/Fase.png", &fundo);
-            corpo.setSize(graphicsManager->getWindowSize());
+            graphicsMgr->loadTexture("../Assets/Backgrounds/Fase.png", &fundo);
+            corpo.setSize(graphicsMgr->getWindowSize());
             corpo.setPosition(0, 0);
             corpo.setTexture(&fundo);
             corpo.setTextureRect(sf::IntRect(0, 0, 1920, 1080));
         }
 
         FaseState::~FaseState() {
-            
+            delete observer;
+            observer = nullptr;
         }
 
         void FaseState::executeEntitys() {
@@ -38,7 +44,7 @@ namespace States
         }
 
         void FaseState::draw() {
-            graphicsManager->draw(corpo);
+            graphicsMgr->draw(corpo);
             graphicsMan->draw(sprite_mapa);
         }
 

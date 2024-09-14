@@ -1,8 +1,6 @@
 #pragma once
-#include "GraphicsManager.h"
 #include "../States/State.h"
 #include <map>
-#include <string>
 
 namespace Managers
 {
@@ -11,8 +9,6 @@ namespace Managers
     private:
         std::map<std::string, States::State*> statesMap;
         std::string currentState;
-
-        Managers::GraphicsManager* graphicsManager;
 
         // Singleton instance
         static Managers::StateManager* instance;
@@ -25,6 +21,8 @@ namespace Managers
 
         // Get the singleton instance
         static Managers::StateManager* getInstance();
+
+        const bool hasState();
 
         void setCurrentState(const std::string stateName);
         std::string getCurrentStateName();

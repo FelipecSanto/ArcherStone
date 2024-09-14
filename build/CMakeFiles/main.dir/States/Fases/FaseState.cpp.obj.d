@@ -1,32 +1,16 @@
 CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj: \
  C:\Users\felpi\Documents\PETECO\ProjectSimas\States\Fases\FaseState.cpp \
  C:\Users\felpi\Documents\PETECO\ProjectSimas\States\Fases\FaseState.h \
- C:\Users\felpi\Documents\PETECO\ProjectSimas\States\Fases\GameState.h \
- c:\users\felpi\documents\peteco\projectsimas\states\state.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\string \
+ c:\users\felpi\documents\peteco\projectsimas\mapa\tilemap.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\cpu_defines.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ostream \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ios \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\iosfwd \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stringfwd.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\memoryfwd.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\functexcept.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\exception_defines.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\cpp_type_traits.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\type_traits.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\numeric_traits.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_pair.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\move.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\concept_check.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\type_traits \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator_base_types.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator_base_funcs.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\debug\assertions.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\ptr_traits.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\debug\debug.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\predefined_ops.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\postypes.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\cwchar \
  c:\vscode\include\wchar.h c:\vscode\include\_mingw.h \
@@ -40,24 +24,49 @@ CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj: \
  c:\vscode\include\sys/stat.h c:\vscode\include\io.h \
  c:\vscode\include\stdint.h c:\vscode\include\time.h \
  c:\vscode\include\locale.h c:\vscode\include\process.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\cstdint \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\stdint.h \
- c:\vscode\include\stdint.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++allocator.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\new_allocator.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\new \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\exception \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\atomic_lockfree_defines.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\exception_ptr.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\exception_defines.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\nested_exception.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\move.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\concept_check.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\type_traits \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\functexcept.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\cpp_type_traits.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\type_traits.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\numeric_traits.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_pair.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator_base_types.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator_base_funcs.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\debug\assertions.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\ptr_traits.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\debug\debug.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\predefined_ops.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\cstdint \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\stdint.h \
+ c:\vscode\include\stdint.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\localefwd.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++locale.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\clocale \
  c:\vscode\include\locale.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\iosfwd \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\cctype \
  c:\vscode\include\ctype.h c:\vscode\include\wctype.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\atomicity.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\gthr.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\gthr-default.h \
+ c:\vscode\include\errno.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\atomic_word.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\string \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++allocator.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\new_allocator.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\new \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream_insert.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\cxxabi_forced.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_function.h \
@@ -65,11 +74,6 @@ CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\range_access.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\initializer_list \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\atomicity.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\gthr.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\gthr-default.h \
- c:\vscode\include\errno.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\atomic_word.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\alloc_traits.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\alloc_traits.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\string_conversions.h \
@@ -81,18 +85,6 @@ CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\functional_hash.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\hash_bytes.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.tcc \
- C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics.hpp \
- C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Window.hpp \
- C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System.hpp \
- C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Config.hpp \
- C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System/Clock.hpp \
- C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System/Export.hpp \
- C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System/Time.hpp \
- C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System/Err.hpp \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ostream \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ios \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.tcc \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\system_error \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\error_constants.h \
@@ -108,6 +100,16 @@ CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets.tcc \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_ios.tcc \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\istream \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
+ C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics.hpp \
+ C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Window.hpp \
+ C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System.hpp \
+ C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Config.hpp \
+ C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System/Clock.hpp \
+ C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+ C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System/Time.hpp \
+ C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System/Err.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System/FileInputStream.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System/InputStream.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
@@ -145,8 +147,6 @@ CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\uses_allocator.h \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System/Utf.inl \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\iterator \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\istream \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stream_iterator.h \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System/String.inl \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System/Thread.hpp \
@@ -217,25 +217,9 @@ CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj: \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/Sprite.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/Text.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp \
- c:\users\felpi\documents\peteco\projectsimas\managers\collisionmanager.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\unordered_map \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\hashtable.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\hashtable_policy.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_map.h \
+ c:\users\felpi\documents\peteco\projectsimas\nlohmann\json.hpp \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\functional \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\typeinfo \
- c:\users\felpi\documents\peteco\projectsimas\entitys\characters\player.h \
- c:\users\felpi\documents\peteco\projectsimas\entitys\characters\Character.h \
- c:\users\felpi\documents\peteco\projectsimas\entitys\entity.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\iostream \
- c:\users\felpi\documents\peteco\projectsimas\managers\graphicsmanager.h \
- c:\users\felpi\documents\peteco\projectsimas\mapa\quadtree.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\unordered_set \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_set.h \
- c:\users\felpi\documents\peteco\projectsimas\entitys\platform.h \
- c:\users\felpi\documents\peteco\projectsimas\managers\statemanager.h \
- c:\users\felpi\documents\peteco\projectsimas\mapa\tilemap.h \
- c:\users\felpi\documents\peteco\projectsimas\nlohmann\json.hpp \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\memory \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_raw_storage_iter.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\concurrence.h \
@@ -249,6 +233,10 @@ CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\forward_list \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\forward_list.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\forward_list.tcc \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\unordered_map \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\hashtable.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\hashtable_policy.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_map.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\valarray \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\cmath \
  c:\vscode\include\math.h \
@@ -273,7 +261,27 @@ CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\sstream \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc \
  c:\users\felpi\documents\peteco\projectsimas\nlohmann\json_fwd.hpp \
+ c:\users\felpi\documents\peteco\projectsimas\entitys\characters\player.h \
+ c:\users\felpi\documents\peteco\projectsimas\entitys\characters\Character.h \
+ c:\users\felpi\documents\peteco\projectsimas\entitys\entity.h \
+ c:\users\felpi\documents\peteco\projectsimas\managers\graphicsmanager.h \
+ c:\users\felpi\documents\peteco\projectsimas\mapa\quadtree.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\unordered_set \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_set.h \
+ c:\users\felpi\documents\peteco\projectsimas\managers\eventsmanager.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\queue \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\deque \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_deque.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\deque.tcc \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_queue.h \
+ c:\users\felpi\documents\peteco\projectsimas\observers\observer.h \
+ c:\users\felpi\documents\peteco\projectsimas\managers\statemanager.h \
+ c:\users\felpi\documents\peteco\projectsimas\states\state.h \
+ c:\users\felpi\documents\peteco\projectsimas\observers\playerobserver.h \
+ c:\users\felpi\documents\peteco\projectsimas\entitys\platform.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\fstream \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\basic_file.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++io.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\fstream.tcc
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\fstream.tcc \
+ c:\users\felpi\documents\peteco\projectsimas\managers\collisionmanager.h \
+ c:\users\felpi\documents\peteco\projectsimas\observers\fasestateobserver.h

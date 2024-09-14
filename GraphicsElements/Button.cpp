@@ -6,7 +6,7 @@ namespace GraphicsElements
     Button::Button(float x, float y, float width, float height, int characterSize, std::string textStr):
     shape(),
     text(),
-    graphicsManager(Managers::GraphicsManager::getInstance())
+    graphicsMgr(Managers::GraphicsManager::getInstance())
     {
         shape.setPosition(x, y);
         shape.setSize({width, height});
@@ -14,7 +14,7 @@ namespace GraphicsElements
         shape.setOutlineColor(sf::Color::Blue);
         shape.setFillColor(sf::Color::Blue);
 
-        graphicsManager->loadFont("../Fontes/Font.ttf", &font);
+        graphicsMgr->loadFont("../Fontes/Font.ttf", &font);
 
         text.setFont(font);
         text.setString(textStr);
@@ -31,8 +31,8 @@ namespace GraphicsElements
 
     void Button::render()
     {
-        graphicsManager->draw(shape);
-        graphicsManager->draw(text);
+        graphicsMgr->draw(shape);
+        graphicsMgr->draw(text);
     }
 
     void Button::setText(const std::string textStr)
@@ -57,8 +57,8 @@ namespace GraphicsElements
 
     const bool Button::isMouseOver()
     {
-        int mouseX = sf::Mouse::getPosition(*graphicsManager->getWindow()).x;  
-        int mouseY = sf::Mouse::getPosition(*graphicsManager->getWindow()).y;
+        int mouseX = sf::Mouse::getPosition(*graphicsMgr->getWindow()).x;  
+        int mouseY = sf::Mouse::getPosition(*graphicsMgr->getWindow()).y;
 
         sf::FloatRect buttonBounds = shape.getGlobalBounds();
 

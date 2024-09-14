@@ -10,7 +10,7 @@ namespace GraphicsElements
         sf::Text text;
         sf::Font font;
 
-        Managers::GraphicsManager* graphicsManager;
+        Managers::GraphicsManager* graphicsMgr;
 
     public:
         Button(float x = 0, float y = 0, float width = 50.0, float height = 50.0, int characterSize = 20, std::string textStr = "Button");

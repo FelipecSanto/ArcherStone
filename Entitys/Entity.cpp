@@ -10,10 +10,11 @@ namespace Entitys
         size(si),
         velocity(sf::Vector2f(0, 0)),
         texture(),
-        graphicsManager(Managers::GraphicsManager::getInstance()),
+        graphicsMgr(Managers::GraphicsManager::getInstance()),
         acceleration(0.0f),
         quadtree(q),
-        onGround(false)
+        onGround(false),
+        eventsMgr(Managers::EventsManager::getInstance())
     {
         shape.setPosition(position);
     }
@@ -84,7 +85,7 @@ namespace Entitys
 
     void Entity::design()
     {
-        graphicsManager->draw(shape);
+        graphicsMgr->draw(shape);
     }
 
     void Entity::applyGravity()

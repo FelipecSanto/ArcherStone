@@ -16,7 +16,7 @@ namespace States
             MenuRankingState();
             ~MenuRankingState();
 
-            void handleEvent(const sf::Event* event);
+            void mouseMenuInteractions();
             void draw();
             void execute();
         };

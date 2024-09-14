@@ -16,9 +16,9 @@ namespace States
         {
             try
             {
-                graphicsManager->loadTexture("../Assets/Backgrounds/MenuOptions.jpg", &texture);
+                graphicsMgr->loadTexture("../Assets/Backgrounds/MenuOptions.jpg", &texture);
                 background.setTexture(&texture);
-                graphicsManager->loadFont("../Fontes/Font.ttf", &font);
+                graphicsMgr->loadFont("../Fontes/Font.ttf", &font);
                 title.setFont(font);
             }
             catch(const std::exception& e)
@@ -26,12 +26,12 @@ namespace States
                 std::cerr << e.what() << '\n';
             }
 
-            background.setSize(graphicsManager->getWindowSize());
+            background.setSize(graphicsMgr->getWindowSize());
             background.setPosition(0, 0);
 
             title.setString("Options Menu");
             title.setCharacterSize(50);
-            title.setPosition(graphicsManager->getWindow()->getSize().x / 2 - title.getGlobalBounds().width / 2, 50);
+            title.setPosition(graphicsMgr->getWindow()->getSize().x / 2 - title.getGlobalBounds().width / 2, 50);
 
             title.setFillColor(sf::Color::White);
             title.setOutlineColor(sf::Color::Black);
@@ -39,11 +39,11 @@ namespace States
             
             //Button(float x, float y, float width, float height, int characterSize, const sf::Font font, const std::string textStr);
 
-            changeResolution = new GraphicsElements::Button(graphicsManager->getWindow()->getSize().x / 2 - 100, 400, 150, 50, 10, "Resolutions");
-            changeSound = new GraphicsElements::Button(graphicsManager->getWindow()->getSize().x / 2 - 100, 475, 150, 50, 10, "Sound");
-            changeLanguage = new GraphicsElements::Button(graphicsManager->getWindow()->getSize().x / 2 - 100, 550, 150, 50, 10, "Language");
-            changeControls = new GraphicsElements::Button(graphicsManager->getWindow()->getSize().x / 2 - 100, 625, 150, 50, 10, "Controls");
-            returnButton = new GraphicsElements::Button(graphicsManager->getWindow()->getSize().x / 2 - 100, 700, 150, 50, 10, "Return");
+            changeResolution = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, 400, 150, 50, 10, "Resolutions");
+            changeSound = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, 475, 150, 50, 10, "Sound");
+            changeLanguage = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, 550, 150, 50, 10, "Language");
+            changeControls = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, 625, 150, 50, 10, "Controls");
+            returnButton = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, 700, 150, 50, 10, "Return");
             
             opcao = 0;
         }
@@ -62,44 +62,8 @@ namespace States
             returnButton = nullptr;
         }
 
-        void MenuOptionsState::handleEvent(const sf::Event* event)
+        void MenuOptionsState::mouseMenuInteractions()
         {
-            if(event->type == sf::Event::KeyPressed)
-            {
-                if(event->key.code == sf::Keyboard::Up)
-                {
-                    if(opcao > 0)
-                    {
-                        opcao--;
-                    }
-                }
-                else if(event->key.code == sf::Keyboard::Down)
-                {
-                    if(opcao < 3)
-                    {
-                        opcao++;
-                    }
-                }
-                else if(event->key.code == sf::Keyboard::Return)
-                {
-                    switch(opcao)
-                    {
-                        case 0:
-                            // Change resolution
-                            break;
-                        case 1:
-                            // Change sound
-                            break;
-                        case 2:
-                            // Change language
-                            break;
-                        case 3:
-                            // Change controls
-                            break;
-                    }
-                }
-            }
-
             // Muda Resolucao
             if(changeResolution->isMouseOver())
             {
@@ -177,16 +141,16 @@ namespace States
             // Voltar
             if(returnButton->isClicked())
             {
-                stateManager->changeState("MenuInicialState");
+                stateMgr->changeState("MenuInicialState");
             }
         }
 
         void MenuOptionsState::draw()
         {
-            graphicsManager->setViewCenter(sf::Vector2f(graphicsManager->getWindow()->getSize().x / 2, graphicsManager->getWindow()->getSize().y / 2));
+            graphicsMgr->setViewCenter(sf::Vector2f(graphicsMgr->getWindow()->getSize().x / 2, graphicsMgr->getWindow()->getSize().y / 2));
 
-            graphicsManager->draw(background);
-            graphicsManager->draw(title);
+            graphicsMgr->draw(background);
+            graphicsMgr->draw(title);
             
             changeResolution->render();
             changeSound->render();
@@ -197,6 +161,7 @@ namespace States
 
         void MenuOptionsState::execute()
         {
+            mouseMenuInteractions();
             draw();
         }
     }

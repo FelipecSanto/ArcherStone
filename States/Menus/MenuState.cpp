@@ -1,4 +1,5 @@
 #include "MenuState.h"
+#include "../../Managers/EventsManager.h"
 
 namespace States
 {
@@ -9,8 +10,10 @@ namespace States
         title(),
         background(),
         texture(),
-        font()
+        font(),
+        observer(new Observers::MenusObserver(this))
         {
+            eventsMgr->addObserver(observer);
         }
 
         MenuState::~MenuState()

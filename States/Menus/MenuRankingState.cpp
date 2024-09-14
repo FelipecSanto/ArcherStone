@@ -9,18 +9,18 @@ namespace States
         returnButton(nullptr),
         score()
         {
-            graphicsManager->loadTexture("../Assets/Backgrounds/MenuRanking.jpg", &texture);
+            graphicsMgr->loadTexture("../Assets/Backgrounds/MenuRanking.jpg", &texture);
 
             background.setTexture(&texture);
-            background.setSize(graphicsManager->getWindowSize());
+            background.setSize(graphicsMgr->getWindowSize());
             background.setPosition(0, 0);
 
-            graphicsManager->loadFont("../Fontes/Font.ttf", &font);
+            graphicsMgr->loadFont("../Fontes/Font.ttf", &font);
 
             title.setFont(font);
             title.setString("Ranking");
             title.setCharacterSize(50);
-            title.setPosition(graphicsManager->getWindow()->getSize().x / 2 - title.getGlobalBounds().width / 2, 50);
+            title.setPosition(graphicsMgr->getWindow()->getSize().x / 2 - title.getGlobalBounds().width / 2, 50);
 
             title.setFillColor(sf::Color::White);
             title.setOutlineColor(sf::Color::Black);
@@ -29,8 +29,8 @@ namespace States
             score.setFont(font);
             score.setString("Score");
             score.setCharacterSize(30);
-            score.setPosition((graphicsManager->getWindow()->getSize().x*3) / 4 - score.getGlobalBounds().width / 2,
-                            graphicsManager->getWindow()->getSize().y / 4);
+            score.setPosition((graphicsMgr->getWindow()->getSize().x*3) / 4 - score.getGlobalBounds().width / 2,
+                            graphicsMgr->getWindow()->getSize().y / 4);
             score.setFillColor(sf::Color::White);
             score.setOutlineColor(sf::Color::Black);
             score.setOutlineThickness(1);
@@ -39,15 +39,15 @@ namespace States
             name.setFont(font);
             name.setString("Name");
             name.setCharacterSize(30);
-            name.setPosition((graphicsManager->getWindow()->getSize().x) / 4 - name.getGlobalBounds().width / 2,
-                            graphicsManager->getWindow()->getSize().y / 4);
+            name.setPosition((graphicsMgr->getWindow()->getSize().x) / 4 - name.getGlobalBounds().width / 2,
+                            graphicsMgr->getWindow()->getSize().y / 4);
             name.setFillColor(sf::Color::White);
             name.setOutlineColor(sf::Color::Black);
             name.setOutlineThickness(1);
             
             //Button(float x, float y, float width, float height, int characterSize, const sf::Font font, const std::string textStr);
 
-            returnButton = new GraphicsElements::Button(graphicsManager->getWindow()->getSize().x / 2 - 100, (graphicsManager->getWindow()->getSize().y*6)/8, 200, 100, 15, "Return");
+            returnButton = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, (graphicsMgr->getWindow()->getSize().y*6)/8, 200, 100, 15, "Return");
         }
 
         MenuRankingState::~MenuRankingState()
@@ -56,7 +56,7 @@ namespace States
             returnButton = nullptr;
         }
 
-        void MenuRankingState::handleEvent(const sf::Event* event)
+        void MenuRankingState::mouseMenuInteractions()
         {
             // Voltar button
             if(returnButton->isMouseOver())
@@ -71,24 +71,25 @@ namespace States
             // Button events
             if(returnButton->isClicked())
             {
-                stateManager->changeState("MenuInicialState");
+                stateMgr->changeState("MenuInicialState");
             }
         }
 
         void MenuRankingState::draw()
         {
-            graphicsManager->setViewCenter(sf::Vector2f(graphicsManager->getWindow()->getSize().x / 2, graphicsManager->getWindow()->getSize().y / 2));
+            graphicsMgr->setViewCenter(sf::Vector2f(graphicsMgr->getWindow()->getSize().x / 2, graphicsMgr->getWindow()->getSize().y / 2));
 
-            graphicsManager->draw(background);
-            graphicsManager->draw(title);
-            graphicsManager->draw(score);
-            graphicsManager->draw(name);
+            graphicsMgr->draw(background);
+            graphicsMgr->draw(title);
+            graphicsMgr->draw(score);
+            graphicsMgr->draw(name);
 
             returnButton->render();
         }
 
         void MenuRankingState::execute()
         {
+            mouseMenuInteractions();
             draw();
         }
     }

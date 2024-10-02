@@ -22,7 +22,6 @@ namespace GraphicsElements
         void setFillColor(const sf::Color color);
         void setOutlineColor(const sf::Color color);
 
-        const bool isMouseOver();
-        const bool isClicked();
+        const bool mouseOver();
     };
 }

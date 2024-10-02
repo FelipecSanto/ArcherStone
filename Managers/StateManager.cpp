@@ -86,11 +86,16 @@ namespace Managers
 
     void StateManager::changeState(std::string stateName)
     {
+        if(statesMap[currentState])
+            statesMap[currentState]->deactivateObserver();
+
         // Check if the state exists in the statesMap
         if (statesMap.find(stateName) != statesMap.end())
         {
             // Set the current state to the new state
             currentState = stateName;
+
+            statesMap[currentState]->activateObserver();
         }
         else
         {
@@ -109,15 +114,11 @@ namespace Managers
             }
             else if(stateName == "MenuOptionsState")
             {
-                std::cout << "MenuOptionsState 1" << std::endl;
                 addCurrentState(static_cast<States::State*>(new States::Menus::MenuOptionsState()));
-                std::cout << "MenuOptionsState 2" << std::endl;
             }
             else if(stateName == "MenuRankingState")
             {
-                std::cout << "MenuRankingState 1" << std::endl;
                 addCurrentState(static_cast<States::State*>(new States::Menus::MenuRankingState()));
-                std::cout << "MenuRankingState 2" << std::endl;
             }
         }
     }

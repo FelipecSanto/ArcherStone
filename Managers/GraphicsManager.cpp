@@ -10,8 +10,8 @@ namespace Managers
     window(),
     viewport()
     {
-        //window.create(sf::VideoMode::getDesktopMode(), "SFML", sf::Style::Fullscreen);
-        window.create(sf::VideoMode(1000, 1000), "SFML");
+        window.create(sf::VideoMode::getDesktopMode(), "SFML", sf::Style::Fullscreen);
+        //window.create(sf::VideoMode(1000, 1000), "SFML");
         viewport.setSize(getWindowSize());
         viewport.setCenter(getWindowSize() / 2.f);
         setView(viewport);

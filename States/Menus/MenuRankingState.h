@@ -16,7 +16,8 @@ namespace States
             MenuRankingState();
             ~MenuRankingState();
 
-            void mouseMenuInteractions();
+            void mouseClick();
+            void mouseOver();
             void draw();
             void execute();
         };

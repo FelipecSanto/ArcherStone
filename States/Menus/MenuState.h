@@ -21,7 +21,10 @@ namespace States
             MenuState(std::string nam = "MenuState");
             virtual ~MenuState();
 
-            virtual void mouseMenuInteractions() = 0;
+            virtual void mouseClick() = 0;
+            virtual void mouseOver() = 0;
+            void activateObserver();
+            void deactivateObserver();
             virtual void draw() = 0;
             virtual void execute() = 0;
         };

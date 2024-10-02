@@ -29,6 +29,8 @@ namespace States
                 FaseState(std::string tilemapFaseState);
                 ~FaseState();
 
+                void activateObserver();
+                void deactivateObserver();
                 void executeEntitys();
                 void draw();
                 void execute();

@@ -228,4 +228,5 @@ CMakeFiles/main.dir/States/Menus/MenuState.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_queue.h \
  c:\users\felpi\documents\peteco\projectsimas\observers\observer.h \
  c:\users\felpi\documents\peteco\projectsimas\graphicselements\button.h \
- c:\users\felpi\documents\peteco\projectsimas\observers\menusobserver.h
+ c:\users\felpi\documents\peteco\projectsimas\observers\menusobserver.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\iostream

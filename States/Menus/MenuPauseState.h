@@ -17,7 +17,8 @@ namespace States
             MenuPauseState();
             ~MenuPauseState();
 
-            void mouseMenuInteractions();
+            void mouseClick();
+            void mouseOver();
             void draw();
             void execute();
         };

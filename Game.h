@@ -9,8 +9,6 @@ private:
     Managers::EventsManager* eventsMgr;
     Managers::GraphicsManager* graphicsMgr;
 
-    States::Menus::MenuInicialState menuInicialState;
-
 public:
     Game();
     ~Game();

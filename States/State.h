@@ -21,6 +21,8 @@ namespace States
         void setName(const std::string na);
         std::string getName();
 
+        virtual void activateObserver() = 0;
+        virtual void deactivateObserver() = 0;
         virtual void draw() = 0;
         virtual void execute() = 0;
     };

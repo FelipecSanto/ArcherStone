@@ -47,10 +47,33 @@ namespace States
             exit = nullptr;
         }
 
-        void MenuPauseState::mouseMenuInteractions()
+        void MenuPauseState::mouseClick()
+        {
+            if(returnButton->mouseOver())
+            {
+                stateMgr->changeState("FaseState");
+            }
+
+            if(save->mouseOver())
+            {
+                // Save the game
+            }
+
+            if(options->mouseOver())
+            {
+                // Go to the options menu
+            }
+
+            if(exit->mouseOver())
+            {
+                stateMgr->changeState("MenuInicialState");
+            }
+        }
+
+        void MenuPauseState::mouseOver()
         {
             // Resume button
-            if(returnButton->isMouseOver())
+            if(returnButton->mouseOver())
             {
                 returnButton->setOutlineColor(sf::Color::White);
             }
@@ -60,7 +83,7 @@ namespace States
             }
 
             // Save button
-            if(save->isMouseOver())
+            if(save->mouseOver())
             {
                 save->setOutlineColor(sf::Color::White);
             }
@@ -70,7 +93,7 @@ namespace States
             }
 
             // Options button
-            if(options->isMouseOver())
+            if(options->mouseOver())
             {
                 options->setOutlineColor(sf::Color::White);
             }
@@ -80,37 +103,13 @@ namespace States
             }
 
             // Exit button
-            if(exit->isMouseOver())
+            if(exit->mouseOver())
             {
                 exit->setOutlineColor(sf::Color::White);
             }
             else
             {
                 exit->setOutlineColor(sf::Color::Blue);
-            }
-
-            // Resume the game
-            if(returnButton->isClicked())
-            {
-                stateMgr->changeState("FaseState");
-            }
-
-            // Save the game   
-            if(save->isClicked())
-            {
-                // Save the game
-            }
-
-            // Options
-            if(options->isClicked())
-            {
-                // Go to the options menu
-            }
-
-            // Exit the game
-            if(exit->isClicked())
-            {
-                stateMgr->changeState("MenuInicialState");
             }
         }
 
@@ -130,7 +129,7 @@ namespace States
 
         void MenuPauseState::execute()
         {
-            mouseMenuInteractions();
+            mouseOver();
             draw();
         }
     }

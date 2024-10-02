@@ -132,6 +132,8 @@ namespace Entitys
                         jumpClock.restart();
                     }
                 }
+
+                 shape.move(velocity);
             }
 
             void Player::execute()

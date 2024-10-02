@@ -22,6 +22,8 @@ namespace Observers
 
     void MenusObserver::mousePressed(const sf::Mouse::Button mouseButton)
     {
+        if(mouseButton == sf::Mouse::Left)
+            menuState->mouseClick();
     }
 
     void MenusObserver::mouseReleased(const sf::Mouse::Button mouseButton)

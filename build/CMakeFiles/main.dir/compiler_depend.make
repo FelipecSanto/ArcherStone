@@ -5197,6 +5197,7 @@ CMakeFiles/main.dir/States/Menus/MenuState.cpp.obj: C:/Users/felpi/Documents/PET
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ios \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/iostream \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/istream \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/iterator \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/limits \
@@ -5425,6 +5426,7 @@ CMakeFiles/main.dir/States/State.cpp.obj: C:/Users/felpi/Documents/PETECO/Projec
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ios \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/iostream \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/istream \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/iterator \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/limits \

@@ -56,10 +56,18 @@ namespace States
             returnButton = nullptr;
         }
 
-        void MenuRankingState::mouseMenuInteractions()
+        void MenuRankingState::mouseClick()
+        {
+            if(returnButton->mouseOver())
+            {
+                stateMgr->changeState("MenuInicialState");
+            }
+        }
+
+        void MenuRankingState::mouseOver()
         {
             // Voltar button
-            if(returnButton->isMouseOver())
+            if(returnButton->mouseOver())
             {
                 returnButton->setOutlineColor(sf::Color::White);
             }
@@ -68,11 +76,11 @@ namespace States
                 returnButton->setOutlineColor(sf::Color::Blue);
             }
 
-            // Button events
+            /*// Button events
             if(returnButton->isClicked())
             {
                 stateMgr->changeState("MenuInicialState");
-            }
+            }*/
         }
 
         void MenuRankingState::draw()
@@ -89,7 +97,7 @@ namespace States
 
         void MenuRankingState::execute()
         {
-            mouseMenuInteractions();
+            mouseOver();
             draw();
         }
     }

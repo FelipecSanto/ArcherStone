@@ -1,4 +1,5 @@
 #include "MenuState.h"
+#include <iostream>
 
 namespace States
 {
@@ -17,6 +18,16 @@ namespace States
 
         MenuState::~MenuState()
         {
+        }
+
+        void MenuState::activateObserver()
+        {
+            observer->setActivated(true);
+        }
+
+        void MenuState::deactivateObserver()
+        {
+            observer->setActivated(false);
         }
     }
 }

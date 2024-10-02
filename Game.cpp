@@ -3,10 +3,9 @@
 Game::Game():
 stateMgr(Managers::StateManager::getInstance()),
 eventsMgr(Managers::EventsManager::getInstance()),
-graphicsMgr(Managers::GraphicsManager::getInstance()),
-menuInicialState()
+graphicsMgr(Managers::GraphicsManager::getInstance())
 {
-    stateMgr->addCurrentState(&menuInicialState);
+    stateMgr->changeState("MenuInicialState");
     run();
 }
 

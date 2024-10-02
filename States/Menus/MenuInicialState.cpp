@@ -29,7 +29,7 @@ namespace States
             title.setOutlineColor(sf::Color::Black);
             title.setOutlineThickness(1);
             
-            //Button(float x, float y, float width, float height, int characterSize, const sf::Font font, const std::string textStr);
+            //Button(float x, float y, float width, float height, int characterSize, const std::string textStr);
 
             newGame = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, 300, 150, 50, 10, "New Game");
             continueGame = new GraphicsElements::Button(graphicsMgr->getWindow()->getSize().x / 2 - 100, 375, 150, 50, 10, "Continue");
@@ -57,10 +57,50 @@ namespace States
             exit = nullptr;
         }
 
-        void MenuInicialState::mouseMenuInteractions()
+        void MenuInicialState::mouseClick()
+        {
+            if(newGame->mouseOver())
+            {
+                stateMgr->removeState("FaseState");
+                stateMgr->changeState("FaseState");
+            }
+
+            if(continueGame->mouseOver())
+            {
+                stateMgr->changeState("FaseState");
+            }
+
+            if(loadGame->mouseOver())
+            {
+                // Load the game
+            }
+
+            if(tutorial->mouseOver())
+            {
+                // Show the tutorial
+            }
+
+            if(ranking->mouseOver())
+            {
+                stateMgr->changeState("MenuRankingState");
+            }
+
+            if(options->mouseOver())
+            {
+                stateMgr->changeState("MenuOptionsState");
+            }
+
+            // Exit the game
+            if(exit->mouseOver())
+            {
+                graphicsMgr->getWindow()->close();
+            }
+        }
+
+        void MenuInicialState::mouseOver()
         {
             // Play button
-            if(newGame->isMouseOver())
+            if(newGame->mouseOver())
             {
                 newGame->setOutlineColor(sf::Color::White);
             }
@@ -70,7 +110,7 @@ namespace States
             }
 
             // Continue button
-            if(continueGame->isMouseOver())
+            if(continueGame->mouseOver())
             {
                 continueGame->setOutlineColor(sf::Color::White);
             }
@@ -80,7 +120,7 @@ namespace States
             }
 
             // Load button
-            if(loadGame->isMouseOver())
+            if(loadGame->mouseOver())
             {
                 loadGame->setOutlineColor(sf::Color::White);
             }
@@ -90,7 +130,7 @@ namespace States
             }
 
             // Tutorial button
-            if(tutorial->isMouseOver())
+            if(tutorial->mouseOver())
             {
                 tutorial->setOutlineColor(sf::Color::White);
             }
@@ -100,7 +140,7 @@ namespace States
             }
 
             // Ranking button
-            if(ranking->isMouseOver())
+            if(ranking->mouseOver())
             {
                 ranking->setOutlineColor(sf::Color::White);
             }
@@ -110,7 +150,7 @@ namespace States
             }
 
             // Options button
-            if(options->isMouseOver())
+            if(options->mouseOver())
             {
                 options->setOutlineColor(sf::Color::White);
             }
@@ -120,60 +160,13 @@ namespace States
             }
 
             // Exit button
-            if(exit->isMouseOver())
+            if(exit->mouseOver())
             {
                 exit->setOutlineColor(sf::Color::White);
             }
             else
             {
                 exit->setOutlineColor(sf::Color::Blue);
-            }
-
-
-            // Button click events //////////////////////////////////////////////////////////
-
-
-            // Play the game
-            if(newGame->isClicked())
-            {
-                stateMgr->removeState("FaseState");
-                stateMgr->changeState("FaseState");
-            }
-
-            // Continue the game
-            if(continueGame->isClicked())
-            {
-                stateMgr->changeState("FaseState");
-            }
-
-            // Load the game
-            if(loadGame->isClicked())
-            {
-                // Load the game
-            }
-
-            // Show the tutorial
-            if(tutorial->isClicked())
-            {
-                // Show the tutorial
-            }
-
-            // Show the ranking
-            if(ranking->isClicked())
-            {
-                stateMgr->changeState("MenuRankingState");
-            }
-
-            // Show the options
-            if(options->isClicked())
-            {
-                stateMgr->changeState("MenuOptionsState");
-            }
-
-            // Exit the game
-            if(exit->isClicked())
-            {
-                graphicsMgr->getWindow()->close();
             }
         }
 
@@ -195,7 +188,7 @@ namespace States
 
         void MenuInicialState::execute()
         {
-            mouseMenuInteractions();
+            mouseOver();
             draw();
         }
     }

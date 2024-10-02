@@ -62,10 +62,38 @@ namespace States
             returnButton = nullptr;
         }
 
-        void MenuOptionsState::mouseMenuInteractions()
+        void MenuOptionsState::mouseClick()
+        {
+            if(changeResolution->mouseOver())
+            {
+                // Change resolution
+            }
+
+            if(changeSound->mouseOver())
+            {
+                // Change sound
+            }
+
+            if(changeLanguage->mouseOver())
+            {
+                // Change language
+            }
+
+            if(changeControls->mouseOver())
+            {
+                // Change controls
+            }
+
+            if(returnButton->mouseOver())
+            {
+                stateMgr->changeState("MenuInicialState");
+            }
+        }
+
+        void MenuOptionsState::mouseOver()
         {
             // Muda Resolucao
-            if(changeResolution->isMouseOver())
+            if(changeResolution->mouseOver())
             {
                 changeResolution->setOutlineColor(sf::Color::White);
             }
@@ -75,7 +103,7 @@ namespace States
             }
 
             // Muda Som
-            if(changeSound->isMouseOver())
+            if(changeSound->mouseOver())
             {
                 changeSound->setOutlineColor(sf::Color::White);
             }
@@ -85,7 +113,7 @@ namespace States
             }
 
             // Muda Idioma
-            if(changeLanguage->isMouseOver())
+            if(changeLanguage->mouseOver())
             {
                 changeLanguage->setOutlineColor(sf::Color::White);
             }
@@ -95,7 +123,7 @@ namespace States
             }
 
             // Muda Controles
-            if(changeControls->isMouseOver())
+            if(changeControls->mouseOver())
             {
                 changeControls->setOutlineColor(sf::Color::White);
             }
@@ -105,43 +133,13 @@ namespace States
             }
 
             // Voltar
-            if(returnButton->isMouseOver())
+            if(returnButton->mouseOver())
             {
                 returnButton->setOutlineColor(sf::Color::White);
             }
             else
             {
                 returnButton->setOutlineColor(sf::Color::Blue);
-            }
-
-            // Muda Resolucao
-            if(changeResolution->isClicked())
-            {
-                // Change resolution
-            }
-
-            // Muda Som
-            if(changeSound->isClicked())
-            {
-                // Change sound
-            }
-
-            // Muda Idioma
-            if(changeLanguage->isClicked())
-            {
-                // Change language
-            }
-
-            // Muda Controles
-            if(changeControls->isClicked())
-            {
-                // Change controls
-            }
-
-            // Voltar
-            if(returnButton->isClicked())
-            {
-                stateMgr->changeState("MenuInicialState");
             }
         }
 
@@ -161,7 +159,7 @@ namespace States
 
         void MenuOptionsState::execute()
         {
-            mouseMenuInteractions();
+            mouseOver();
             draw();
         }
     }

@@ -55,7 +55,7 @@ namespace GraphicsElements
         shape.setOutlineColor(color);
     }
 
-    const bool Button::isMouseOver()
+    const bool Button::mouseOver()
     {
         int mouseX = sf::Mouse::getPosition(*graphicsMgr->getWindow()).x;  
         int mouseY = sf::Mouse::getPosition(*graphicsMgr->getWindow()).y;
@@ -63,10 +63,5 @@ namespace GraphicsElements
         sf::FloatRect buttonBounds = shape.getGlobalBounds();
 
         return buttonBounds.contains(mouseX, mouseY);
-    }
-
-    const bool Button::isClicked()
-    {
-        return sf::Mouse::isButtonPressed(sf::Mouse::Left) && isMouseOver();
     }
 }

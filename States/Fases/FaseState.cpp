@@ -37,6 +37,16 @@ namespace States
             observer = nullptr;
         }
 
+        void FaseState::activateObserver()
+        {
+            observer->setActivated(true);
+        }
+
+        void FaseState::deactivateObserver()
+        {
+            observer->setActivated(false);
+        }
+
         void FaseState::executeEntitys() {
             for (const auto& pair : entitys) {
                 pair.second->execute();

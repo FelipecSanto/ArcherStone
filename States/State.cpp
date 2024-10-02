@@ -1,8 +1,13 @@
 #include "State.h"
+#include <iostream>
 
 namespace States
 {
-    State::State(std::string nam): name(nam), stateMgr(Managers::StateManager::getInstance()), graphicsMgr(Managers::GraphicsManager::getInstance()) 
+    State::State(std::string nam): 
+    name(nam), 
+    stateMgr(Managers::StateManager::getInstance()), 
+    graphicsMgr(Managers::GraphicsManager::getInstance()),
+    eventsMgr(Managers::EventsManager::getInstance())
     {
     }
 

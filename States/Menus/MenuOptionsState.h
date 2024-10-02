@@ -19,7 +19,8 @@ namespace States
             MenuOptionsState();
             ~MenuOptionsState();
 
-            void mouseMenuInteractions();
+            void mouseClick();
+            void mouseOver();
             void draw();
             void execute();
         };

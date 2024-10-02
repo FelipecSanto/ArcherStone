@@ -1,6 +1,6 @@
 #include "StateManager.h"
-#include "../States/Menus/MenuInicialState.h"
 #include "../States/Fases/FaseState.h"
+#include "../States/Menus/MenuInicialState.h"
 #include "../States/Menus/MenuPauseState.h"
 #include "../States/Menus/MenuOptionsState.h"
 #include "../States/Menus/MenuRankingState.h"
@@ -79,7 +79,6 @@ namespace Managers
         return statesMap[stateName];
     }
 
-    // Run the game loop
     void StateManager::run()
     {
         statesMap[currentState]->execute();
@@ -110,11 +109,15 @@ namespace Managers
             }
             else if(stateName == "MenuOptionsState")
             {
+                std::cout << "MenuOptionsState 1" << std::endl;
                 addCurrentState(static_cast<States::State*>(new States::Menus::MenuOptionsState()));
+                std::cout << "MenuOptionsState 2" << std::endl;
             }
             else if(stateName == "MenuRankingState")
             {
+                std::cout << "MenuRankingState 1" << std::endl;
                 addCurrentState(static_cast<States::State*>(new States::Menus::MenuRankingState()));
+                std::cout << "MenuRankingState 2" << std::endl;
             }
         }
     }

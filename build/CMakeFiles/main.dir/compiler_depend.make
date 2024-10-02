@@ -80,12 +80,11 @@ CMakeFiles/main.dir/Entitys/Characters/Character.cpp.obj: C:/Users/felpi/Documen
   _deps/sfml-src/include/SFML/Window/WindowStyle.hpp \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Characters/Character.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Entity.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Mapa/QuadTree.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
   C:/VScode/include/_mingw.h \
   C:/VScode/include/ctype.h \
   C:/VScode/include/direct.h \
@@ -317,13 +316,12 @@ CMakeFiles/main.dir/Entitys/Characters/Player.cpp.obj: C:/Users/felpi/Documents/
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Characters/Character.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Characters/Player.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Entity.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Mapa/QuadTree.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/PlayerObserver.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
   C:/VScode/include/_mingw.h \
   C:/VScode/include/ctype.h \
   C:/VScode/include/direct.h \
@@ -553,12 +551,11 @@ CMakeFiles/main.dir/Entitys/Entity.cpp.obj: C:/Users/felpi/Documents/PETECO/Proj
   _deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
   _deps/sfml-src/include/SFML/Window/WindowStyle.hpp \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Entity.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Mapa/QuadTree.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
   C:/VScode/include/_mingw.h \
   C:/VScode/include/ctype.h \
   C:/VScode/include/direct.h \
@@ -789,12 +786,11 @@ CMakeFiles/main.dir/Entitys/Platform.cpp.obj: C:/Users/felpi/Documents/PETECO/Pr
   _deps/sfml-src/include/SFML/Window/WindowStyle.hpp \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Entity.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Platform.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Mapa/QuadTree.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
   C:/VScode/include/_mingw.h \
   C:/VScode/include/ctype.h \
   C:/VScode/include/direct.h \
@@ -1481,13 +1477,12 @@ CMakeFiles/main.dir/Managers/CollisionManager.cpp.obj: C:/Users/felpi/Documents/
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Characters/Player.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Entity.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Platform.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Mapa/QuadTree.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/PlayerObserver.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
   C:/VScode/include/_mingw.h \
   C:/VScode/include/ctype.h \
   C:/VScode/include/direct.h \
@@ -1722,7 +1717,6 @@ CMakeFiles/main.dir/Managers/EventsManager.cpp.obj: C:/Users/felpi/Documents/PET
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
   C:/VScode/include/_mingw.h \
   C:/VScode/include/ctype.h \
   C:/VScode/include/direct.h \
@@ -2171,16 +2165,16 @@ CMakeFiles/main.dir/Managers/StateManager.cpp.obj: C:/Users/felpi/Documents/PETE
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Entity.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Platform.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/GraphicsElements/Button.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/CollisionManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Mapa/QuadTree.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Mapa/tilemap.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/nlohmann/json.hpp \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/nlohmann/json_fwd.hpp \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/FaseStateObserver.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/MenusObserver.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/PlayerObserver.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/States/Fases/FaseState.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/States/Menus/MenuState.h \
@@ -2684,15 +2678,14 @@ CMakeFiles/main.dir/Mapa/tilemap.cpp.obj: C:/Users/felpi/Documents/PETECO/Projec
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Characters/Player.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Entity.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Platform.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Mapa/QuadTree.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/nlohmann/json.hpp \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/nlohmann/json_fwd.hpp \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/PlayerObserver.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
   C:/VScode/include/_mingw.h \
   C:/VScode/include/assert.h \
   C:/VScode/include/ctype.h \
@@ -2965,7 +2958,6 @@ CMakeFiles/main.dir/Observers/FaseStateObserver.cpp.obj: C:/Users/felpi/Document
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/FaseStateObserver.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
   C:/VScode/include/_mingw.h \
   C:/VScode/include/ctype.h \
   C:/VScode/include/direct.h \
@@ -3186,6 +3178,7 @@ CMakeFiles/main.dir/Observers/MenusObserver.cpp.obj: C:/Users/felpi/Documents/PE
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/GraphicsElements/Button.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/States/Menus/MenuState.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
@@ -3224,6 +3217,7 @@ CMakeFiles/main.dir/Observers/MenusObserver.cpp.obj: C:/Users/felpi/Documents/PE
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/deque.tcc \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
@@ -3252,6 +3246,7 @@ CMakeFiles/main.dir/Observers/MenusObserver.cpp.obj: C:/Users/felpi/Documents/PE
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_deque.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_heap.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
@@ -3260,6 +3255,7 @@ CMakeFiles/main.dir/Observers/MenusObserver.cpp.obj: C:/Users/felpi/Documents/PE
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_map.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_multimap.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_queue.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_relops.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tempbuf.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tree.h \
@@ -3285,6 +3281,7 @@ CMakeFiles/main.dir/Observers/MenusObserver.cpp.obj: C:/Users/felpi/Documents/PE
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/cwctype \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/deque \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/exception \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/aligned_buffer.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
@@ -3293,6 +3290,7 @@ CMakeFiles/main.dir/Observers/MenusObserver.cpp.obj: C:/Users/felpi/Documents/PE
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/functional \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ios \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
@@ -3316,12 +3314,14 @@ CMakeFiles/main.dir/Observers/MenusObserver.cpp.obj: C:/Users/felpi/Documents/PE
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/time_members.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/new \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ostream \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/queue \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/stdexcept \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/streambuf \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/string \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/system_error \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/tuple \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/typeinfo \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/utility \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/vector \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/stdarg.h \
@@ -3407,7 +3407,6 @@ CMakeFiles/main.dir/Observers/Observer.cpp.obj: C:/Users/felpi/Documents/PETECO/
   _deps/sfml-src/include/SFML/Window/WindowStyle.hpp \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
   C:/VScode/include/_mingw.h \
   C:/VScode/include/ctype.h \
   C:/VScode/include/direct.h \
@@ -3629,11 +3628,10 @@ CMakeFiles/main.dir/Observers/PlayerObserver.cpp.obj: C:/Users/felpi/Documents/P
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Characters/Character.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Characters/Player.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Entity.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Mapa/QuadTree.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
   C:/VScode/include/_mingw.h \
   C:/VScode/include/ctype.h \
   C:/VScode/include/direct.h \
@@ -3867,9 +3865,9 @@ CMakeFiles/main.dir/States/Fases/FaseState.cpp.obj: C:/Users/felpi/Documents/PET
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Characters/Player.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Entity.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Entitys/Platform.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/CollisionManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Mapa/QuadTree.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Mapa/tilemap.h \
@@ -4152,9 +4150,10 @@ CMakeFiles/main.dir/States/Menus/MenuInicialState.cpp.obj: C:/Users/felpi/Docume
   C:/Users/felpi/Documents/PETECO/ProjectSimas/States/Menus/MenuState.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/GraphicsElements/Button.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/MenusObserver.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
   C:/VScode/include/_mingw.h \
   C:/VScode/include/ctype.h \
@@ -4191,6 +4190,7 @@ CMakeFiles/main.dir/States/Menus/MenuInicialState.cpp.obj: C:/Users/felpi/Docume
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/deque.tcc \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
@@ -4219,6 +4219,7 @@ CMakeFiles/main.dir/States/Menus/MenuInicialState.cpp.obj: C:/Users/felpi/Docume
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_deque.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_heap.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
@@ -4227,6 +4228,7 @@ CMakeFiles/main.dir/States/Menus/MenuInicialState.cpp.obj: C:/Users/felpi/Docume
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_map.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_multimap.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_queue.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_relops.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tempbuf.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tree.h \
@@ -4252,6 +4254,7 @@ CMakeFiles/main.dir/States/Menus/MenuInicialState.cpp.obj: C:/Users/felpi/Docume
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/cwctype \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/deque \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/exception \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/aligned_buffer.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
@@ -4260,6 +4263,7 @@ CMakeFiles/main.dir/States/Menus/MenuInicialState.cpp.obj: C:/Users/felpi/Docume
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/functional \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ios \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
@@ -4284,12 +4288,14 @@ CMakeFiles/main.dir/States/Menus/MenuInicialState.cpp.obj: C:/Users/felpi/Docume
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/time_members.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/new \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ostream \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/queue \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/stdexcept \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/streambuf \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/string \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/system_error \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/tuple \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/typeinfo \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/utility \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/vector \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/stdarg.h \
@@ -4377,9 +4383,10 @@ CMakeFiles/main.dir/States/Menus/MenuOptionsState.cpp.obj: C:/Users/felpi/Docume
   C:/Users/felpi/Documents/PETECO/ProjectSimas/States/Menus/MenuState.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/GraphicsElements/Button.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/MenusObserver.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
   C:/VScode/include/_mingw.h \
   C:/VScode/include/ctype.h \
@@ -4416,6 +4423,7 @@ CMakeFiles/main.dir/States/Menus/MenuOptionsState.cpp.obj: C:/Users/felpi/Docume
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/deque.tcc \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
@@ -4444,6 +4452,7 @@ CMakeFiles/main.dir/States/Menus/MenuOptionsState.cpp.obj: C:/Users/felpi/Docume
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_deque.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_heap.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
@@ -4452,6 +4461,7 @@ CMakeFiles/main.dir/States/Menus/MenuOptionsState.cpp.obj: C:/Users/felpi/Docume
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_map.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_multimap.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_queue.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_relops.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tempbuf.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tree.h \
@@ -4477,6 +4487,7 @@ CMakeFiles/main.dir/States/Menus/MenuOptionsState.cpp.obj: C:/Users/felpi/Docume
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/cwctype \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/deque \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/exception \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/aligned_buffer.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
@@ -4485,6 +4496,7 @@ CMakeFiles/main.dir/States/Menus/MenuOptionsState.cpp.obj: C:/Users/felpi/Docume
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/functional \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ios \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
@@ -4509,12 +4521,14 @@ CMakeFiles/main.dir/States/Menus/MenuOptionsState.cpp.obj: C:/Users/felpi/Docume
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/time_members.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/new \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ostream \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/queue \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/stdexcept \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/streambuf \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/string \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/system_error \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/tuple \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/typeinfo \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/utility \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/vector \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/stdarg.h \
@@ -4602,9 +4616,10 @@ CMakeFiles/main.dir/States/Menus/MenuPauseState.cpp.obj: C:/Users/felpi/Document
   C:/Users/felpi/Documents/PETECO/ProjectSimas/States/Menus/MenuState.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/GraphicsElements/Button.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/MenusObserver.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
   C:/VScode/include/_mingw.h \
   C:/VScode/include/ctype.h \
@@ -4641,6 +4656,7 @@ CMakeFiles/main.dir/States/Menus/MenuPauseState.cpp.obj: C:/Users/felpi/Document
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/deque.tcc \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
@@ -4669,6 +4685,7 @@ CMakeFiles/main.dir/States/Menus/MenuPauseState.cpp.obj: C:/Users/felpi/Document
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_deque.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_heap.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
@@ -4677,6 +4694,7 @@ CMakeFiles/main.dir/States/Menus/MenuPauseState.cpp.obj: C:/Users/felpi/Document
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_map.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_multimap.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_queue.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_relops.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tempbuf.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tree.h \
@@ -4702,6 +4720,7 @@ CMakeFiles/main.dir/States/Menus/MenuPauseState.cpp.obj: C:/Users/felpi/Document
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/cwctype \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/deque \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/exception \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/aligned_buffer.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
@@ -4710,6 +4729,7 @@ CMakeFiles/main.dir/States/Menus/MenuPauseState.cpp.obj: C:/Users/felpi/Document
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/functional \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ios \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
@@ -4734,12 +4754,14 @@ CMakeFiles/main.dir/States/Menus/MenuPauseState.cpp.obj: C:/Users/felpi/Document
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/time_members.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/new \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ostream \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/queue \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/stdexcept \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/streambuf \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/string \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/system_error \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/tuple \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/typeinfo \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/utility \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/vector \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/stdarg.h \
@@ -4827,9 +4849,10 @@ CMakeFiles/main.dir/States/Menus/MenuRankingState.cpp.obj: C:/Users/felpi/Docume
   C:/Users/felpi/Documents/PETECO/ProjectSimas/States/Menus/MenuState.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/GraphicsElements/Button.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/MenusObserver.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
   C:/VScode/include/_mingw.h \
   C:/VScode/include/ctype.h \
@@ -4866,6 +4889,7 @@ CMakeFiles/main.dir/States/Menus/MenuRankingState.cpp.obj: C:/Users/felpi/Docume
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/deque.tcc \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
@@ -4894,6 +4918,7 @@ CMakeFiles/main.dir/States/Menus/MenuRankingState.cpp.obj: C:/Users/felpi/Docume
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_deque.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_heap.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
@@ -4902,6 +4927,7 @@ CMakeFiles/main.dir/States/Menus/MenuRankingState.cpp.obj: C:/Users/felpi/Docume
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_map.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_multimap.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_queue.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_relops.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tempbuf.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tree.h \
@@ -4927,6 +4953,7 @@ CMakeFiles/main.dir/States/Menus/MenuRankingState.cpp.obj: C:/Users/felpi/Docume
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/cwctype \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/deque \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/exception \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/aligned_buffer.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
@@ -4935,6 +4962,7 @@ CMakeFiles/main.dir/States/Menus/MenuRankingState.cpp.obj: C:/Users/felpi/Docume
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/functional \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ios \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
@@ -4958,12 +4986,14 @@ CMakeFiles/main.dir/States/Menus/MenuRankingState.cpp.obj: C:/Users/felpi/Docume
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/time_members.h \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/new \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/ostream \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/queue \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/stdexcept \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/streambuf \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/string \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/system_error \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/tuple \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/typeinfo \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/utility \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/vector \
   C:/VScode/lib/gcc/mingw32/6.3.0/include/stdarg.h \
@@ -5049,11 +5079,11 @@ CMakeFiles/main.dir/States/Menus/MenuState.cpp.obj: C:/Users/felpi/Documents/PET
   _deps/sfml-src/include/SFML/Window/WindowStyle.hpp \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/States/Menus/MenuState.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/GraphicsElements/Button.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/GraphicsManager.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/EventsManager.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Managers/StateManager.h \
-  C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/MenusObserver.h \
+  C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h \
   C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h \
   C:/VScode/include/_mingw.h \
   C:/VScode/include/ctype.h \
@@ -5882,8 +5912,6 @@ C:/Users/felpi/Documents/PETECO/ProjectSimas/Mapa/QuadTree.h:
 
 C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/Observer.h:
 
-C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h:
-
 C:/VScode/include/_mingw.h:
 
 C:/VScode/include/ctype.h:
@@ -6203,6 +6231,8 @@ C:/VScode/lib/gcc/mingw32/6.3.0/include/c++/backward/auto_ptr.h:
 C:/Users/felpi/Documents/PETECO/ProjectSimas/GraphicsElements/Button.h:
 
 C:/Users/felpi/Documents/PETECO/ProjectSimas/Observers/MenusObserver.h:
+
+C:/Users/felpi/Documents/PETECO/ProjectSimas/States/State.h:
 
 C:/Users/felpi/Documents/PETECO/ProjectSimas/GraphicsElements/Button.cpp:
 

@@ -1,15 +1,12 @@
 CMakeFiles/main.dir/Managers/StateManager.cpp.obj: \
  C:\Users\felpi\Documents\PETECO\ProjectSimas\Managers\StateManager.cpp \
  C:\Users\felpi\Documents\PETECO\ProjectSimas\Managers\StateManager.h \
- c:\users\felpi\documents\peteco\projectsimas\states\state.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\string \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\map \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_tree.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\cpu_defines.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stringfwd.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\memoryfwd.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\functexcept.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\exception_defines.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\cpp_type_traits.h \
@@ -26,6 +23,30 @@ CMakeFiles/main.dir/Managers/StateManager.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\ptr_traits.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\debug\debug.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\predefined_ops.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++allocator.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\new_allocator.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\new \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\exception \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\atomic_lockfree_defines.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\exception_ptr.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\nested_exception.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\memoryfwd.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_function.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\backward\binders.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\alloc_traits.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\alloc_traits.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\aligned_buffer.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_map.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\initializer_list \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\tuple \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\utility \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_relops.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\array \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\stdexcept \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\string \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stringfwd.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\postypes.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\cwchar \
  c:\vscode\include\wchar.h c:\vscode\include\_mingw.h \
@@ -42,14 +63,6 @@ CMakeFiles/main.dir/Managers/StateManager.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\cstdint \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\stdint.h \
  c:\vscode\include\stdint.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++allocator.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\new_allocator.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\new \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\exception \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\atomic_lockfree_defines.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\exception_ptr.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\nested_exception.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\localefwd.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++locale.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\clocale \
@@ -59,18 +72,13 @@ CMakeFiles/main.dir/Managers/StateManager.cpp.obj: \
  c:\vscode\include\ctype.h c:\vscode\include\wctype.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream_insert.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\cxxabi_forced.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_function.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\backward\binders.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\range_access.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\initializer_list \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\atomicity.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\gthr.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\gthr-default.h \
  c:\vscode\include\errno.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\atomic_word.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\alloc_traits.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\alloc_traits.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\string_conversions.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\cstdlib \
  c:\vscode\include\stdlib.h \
@@ -80,6 +88,10 @@ CMakeFiles/main.dir/Managers/StateManager.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\functional_hash.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\hash_bytes.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.tcc \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\uses_allocator.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h \
+ c:\users\felpi\documents\peteco\projectsimas\states\fases\fasestate.h \
+ c:\users\felpi\documents\peteco\projectsimas\states\state.h \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Window.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System.hpp \
@@ -95,7 +107,6 @@ CMakeFiles/main.dir/Managers/StateManager.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.tcc \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\system_error \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\error_constants.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\stdexcept \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\streambuf \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\streambuf.tcc \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_ios.h \
@@ -117,8 +128,6 @@ CMakeFiles/main.dir/Managers/StateManager.cpp.obj: \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System/String.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\algorithm \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\utility \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_relops.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algo.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\algorithmfwd.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_heap.h \
@@ -139,9 +148,6 @@ CMakeFiles/main.dir/Managers/StateManager.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\codecvt.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\unique_ptr.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\tuple \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\array \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\uses_allocator.h \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System/Utf.inl \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\iterator \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\istream \
@@ -200,11 +206,6 @@ CMakeFiles/main.dir/Managers/StateManager.cpp.obj: \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/Glyph.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/Image.hpp \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\map \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_tree.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\aligned_buffer.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_map.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/RectangleShape.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/View.hpp \
@@ -216,18 +217,18 @@ CMakeFiles/main.dir/Managers/StateManager.cpp.obj: \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/Sprite.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/Text.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp \
- c:\users\felpi\documents\peteco\projectsimas\states\menus\menuinicialstate.h \
- c:\users\felpi\documents\peteco\projectsimas\states\menus\MenuState.h \
- c:\users\felpi\documents\peteco\projectsimas\graphicselements\button.h \
- c:\users\felpi\documents\peteco\projectsimas\managers\graphicsmanager.h \
- c:\users\felpi\documents\peteco\projectsimas\observers\menusobserver.h \
- c:\users\felpi\documents\peteco\projectsimas\observers\Observer.h \
- c:\users\felpi\documents\peteco\projectsimas\states\fases\fasestate.h \
- c:\users\felpi\documents\peteco\projectsimas\mapa\tilemap.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\iostream \
- c:\users\felpi\documents\peteco\projectsimas\nlohmann\json.hpp \
+ c:\users\felpi\documents\peteco\projectsimas\managers\eventsmanager.h \
+ c:\users\felpi\documents\peteco\projectsimas\managers\GraphicsManager.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\functional \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\typeinfo \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\queue \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\deque \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_deque.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\deque.tcc \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_queue.h \
+ c:\users\felpi\documents\peteco\projectsimas\observers\observer.h \
+ c:\users\felpi\documents\peteco\projectsimas\mapa\tilemap.h \
+ c:\users\felpi\documents\peteco\projectsimas\nlohmann\json.hpp \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\memory \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_raw_storage_iter.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\ext\concurrence.h \
@@ -272,15 +273,10 @@ CMakeFiles/main.dir/Managers/StateManager.cpp.obj: \
  c:\users\felpi\documents\peteco\projectsimas\entitys\characters\player.h \
  c:\users\felpi\documents\peteco\projectsimas\entitys\characters\Character.h \
  c:\users\felpi\documents\peteco\projectsimas\entitys\entity.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\users\felpi\documents\peteco\projectsimas\mapa\quadtree.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\unordered_set \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_set.h \
- c:\users\felpi\documents\peteco\projectsimas\managers\eventsmanager.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\queue \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\deque \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_deque.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\deque.tcc \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_queue.h \
  c:\users\felpi\documents\peteco\projectsimas\observers\playerobserver.h \
  c:\users\felpi\documents\peteco\projectsimas\entitys\platform.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\fstream \
@@ -289,6 +285,10 @@ CMakeFiles/main.dir/Managers/StateManager.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\fstream.tcc \
  c:\users\felpi\documents\peteco\projectsimas\managers\collisionmanager.h \
  c:\users\felpi\documents\peteco\projectsimas\observers\fasestateobserver.h \
+ c:\users\felpi\documents\peteco\projectsimas\states\menus\menuinicialstate.h \
+ c:\users\felpi\documents\peteco\projectsimas\states\menus\MenuState.h \
+ c:\users\felpi\documents\peteco\projectsimas\graphicselements\button.h \
+ c:\users\felpi\documents\peteco\projectsimas\observers\menusobserver.h \
  c:\users\felpi\documents\peteco\projectsimas\states\menus\menupausestate.h \
  c:\users\felpi\documents\peteco\projectsimas\states\menus\menuoptionsstate.h \
  c:\users\felpi\documents\peteco\projectsimas\states\menus\menurankingstate.h

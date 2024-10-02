@@ -1,8 +1,6 @@
 #pragma once
 #include <unordered_map>
 #include <functional>
-#include <vector>
-#include <string>
 #include "../Entitys/Characters/Player.h"
 #include "../Entitys/Platform.h"
 

@@ -1,7 +1,7 @@
 #pragma once
+#include "../State.h"
 #include "../../Mapa/tilemap.h"
 #include "../../Managers/CollisionManager.h"
-#include "../../Managers/StateManager.h"
 #include "../../Observers/FaseStateObserver.h"
 
 namespace States

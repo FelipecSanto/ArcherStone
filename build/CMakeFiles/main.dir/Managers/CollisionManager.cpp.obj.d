@@ -92,12 +92,6 @@ CMakeFiles/main.dir/Managers/CollisionManager.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_map.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\functional \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\typeinfo \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\vector \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_vector.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_bvector.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
  c:\users\felpi\documents\peteco\projectsimas\entitys\characters\player.h \
  c:\users\felpi\documents\peteco\projectsimas\entitys\characters\Character.h \
  c:\users\felpi\documents\peteco\projectsimas\entitys\entity.h \
@@ -122,7 +116,15 @@ CMakeFiles/main.dir/Managers/CollisionManager.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\istream \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
- c:\users\felpi\documents\peteco\projectsimas\managers\graphicsmanager.h \
+ c:\users\felpi\documents\peteco\projectsimas\mapa\quadtree.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\vector \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_vector.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_bvector.h \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\unordered_set \
+ c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_set.h \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Window.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/System.hpp \
@@ -226,10 +228,8 @@ CMakeFiles/main.dir/Managers/CollisionManager.cpp.obj: \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/Sprite.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/Text.hpp \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp \
- c:\users\felpi\documents\peteco\projectsimas\mapa\quadtree.h \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\unordered_set \
- c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_set.h \
  c:\users\felpi\documents\peteco\projectsimas\managers\eventsmanager.h \
+ c:\users\felpi\documents\peteco\projectsimas\managers\GraphicsManager.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\queue \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\deque \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_deque.h \
@@ -237,6 +237,5 @@ CMakeFiles/main.dir/Managers/CollisionManager.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_queue.h \
  c:\users\felpi\documents\peteco\projectsimas\observers\observer.h \
  c:\users\felpi\documents\peteco\projectsimas\managers\statemanager.h \
- c:\users\felpi\documents\peteco\projectsimas\states\state.h \
  c:\users\felpi\documents\peteco\projectsimas\observers\playerobserver.h \
  c:\users\felpi\documents\peteco\projectsimas\entitys\platform.h

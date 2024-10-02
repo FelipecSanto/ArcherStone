@@ -1,5 +1,6 @@
 CMakeFiles/main.dir/main.cpp.obj: \
  C:\Users\felpi\Documents\PETECO\ProjectSimas\main.cpp \
+ C:\Users\felpi\Documents\PETECO\ProjectSimas\Game.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
@@ -100,7 +101,6 @@ CMakeFiles/main.dir/main.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\istream \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
- C:\Users\felpi\Documents\PETECO\ProjectSimas\Game.h \
  C:\Users\felpi\Documents\PETECO\ProjectSimas\Managers/EventsManager.h \
  C:\Users\felpi\Documents\PETECO\ProjectSimas\Managers/GraphicsManager.h \
  C:/Users/felpi/Documents/PETECO/ProjectSimas/build/_deps/sfml-src/include/SFML/Graphics.hpp \
@@ -227,8 +227,8 @@ CMakeFiles/main.dir/main.cpp.obj: \
  c:\vscode\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_queue.h \
  c:\users\felpi\documents\peteco\projectsimas\observers\observer.h \
  c:\users\felpi\documents\peteco\projectsimas\managers\statemanager.h \
- c:\users\felpi\documents\peteco\projectsimas\states\state.h \
  C:\Users\felpi\Documents\PETECO\ProjectSimas\States/Menus/MenuInicialState.h \
  C:\Users\felpi\Documents\PETECO\ProjectSimas\States/Menus/MenuState.h \
+ c:\users\felpi\documents\peteco\projectsimas\states\state.h \
  c:\users\felpi\documents\peteco\projectsimas\graphicselements\button.h \
  c:\users\felpi\documents\peteco\projectsimas\observers\menusobserver.h

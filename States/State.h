@@ -1,12 +1,8 @@
 #pragma once
 #include <string>
 #include <SFML/Graphics.hpp>
-
-namespace Managers {
-    class StateManager;
-    class GraphicsManager;
-    class EventsManager;
-}
+#include "../Managers/StateManager.h"
+#include "../Managers/EventsManager.h"
 
 namespace States
 {

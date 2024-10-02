@@ -1,14 +1,9 @@
 #pragma once
-#include <iostream>
-#include <SFML/Graphics.hpp>
 #include "../nlohmann/json.hpp"
 #include "../nlohmann/json_fwd.hpp"
 #include "../Entitys/Characters/Player.h"
 #include "../Entitys/Platform.h"
-#include "QuadTree.h"
-#include <vector>
 #include <fstream>
-#include <string>
 
 namespace Maps
 {

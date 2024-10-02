@@ -1,7 +1,5 @@
 #pragma once
-#include <string>
 #include <iostream>
-#include "../Managers/GraphicsManager.h"
 #include "../Mapa/QuadTree.h"
 #include "../Managers/EventsManager.h"
 

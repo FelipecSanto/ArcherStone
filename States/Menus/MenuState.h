@@ -1,4 +1,5 @@
 #pragma once
+#include "../State.h"
 #include "../../GraphicsElements/Button.h"
 #include "../../Observers/MenusObserver.h"
 
@@ -18,7 +19,7 @@ namespace States
 
         public:
             MenuState(std::string nam = "MenuState");
-            ~MenuState();
+            virtual ~MenuState();
 
             virtual void mouseMenuInteractions() = 0;
             virtual void draw() = 0;

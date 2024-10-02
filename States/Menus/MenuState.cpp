@@ -1,5 +1,4 @@
 #include "MenuState.h"
-#include "../../Managers/EventsManager.h"
 
 namespace States
 {

@@ -1,6 +1,23 @@
 #pragma once
-#include "../States/State.h"
 #include <map>
+
+namespace States
+{
+    class State;
+
+    namespace Fases
+    {
+        class FaseState;
+    }
+
+    namespace Menu
+    {
+        class MenuInicialState;
+        class MenuOptionsState;
+        class MenuPauseState;
+        class MenuRankingState;
+    }
+}
 
 namespace Managers
 {
@@ -33,7 +50,6 @@ namespace Managers
 
         States::State* getState(const std::string stateName);
 
-        // Run the game loop
         void run();
 
         void changeState(std::string stateName);

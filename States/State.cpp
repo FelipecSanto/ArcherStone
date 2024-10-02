@@ -1,6 +1,4 @@
 #include "State.h"
-#include "../Managers/StateManager.h"
-#include "../Managers/EventsManager.h"
 
 namespace States
 {

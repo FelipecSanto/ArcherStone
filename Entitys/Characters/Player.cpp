@@ -133,7 +133,7 @@ namespace Entitys
                     }
                 }
 
-                 shape.move(velocity);
+                shape.move(velocity);
             }
 
             void Player::execute()
